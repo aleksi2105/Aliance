@@ -361,6 +361,7 @@ body {
     height: 1px;
     width: 100%;
     background-color: #ffffff;
+    transition: transform 0.2s;
   }
   .mobile-menu-line:nth-child(2) {
     width: 80%;
@@ -455,5 +456,14 @@ body {
     margin-top: 1.5rem;
     display: flex;
     gap: 15px;
+  }
+  .close-menu .mobile-menu-line:nth-child(2) {
+    display: none;
+  }
+  .close-menu .mobile-menu-line:nth-child(1) {
+    transform: rotate(45deg) translateY(9px);
+  }
+  .close-menu .mobile-menu-line:nth-child(3) {
+    transform: rotate(-45deg) translateY(-9px);
   }
 }
