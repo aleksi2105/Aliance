@@ -276,7 +276,7 @@ body {
 }
 
 .section {
-  margin-top: 2.3125rem;
+  margin-top: 5.8125rem;
   margin-bottom: 9.375rem;
 }
 
@@ -455,6 +455,9 @@ body {
 
 .brand-card-svg {
   margin-left: 3.125rem;
+  flex-shrink: 0;
+  width: 11.25rem;
+  height: 11.25rem;
 }
 
 @media (min-width: 1460px) and (max-width: 1920px) {
