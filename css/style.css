@@ -407,6 +407,56 @@ body {
   margin-bottom: 24.625rem;
 }
 
+.brand-cards {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.brand-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  width: 100%;
+  flex-basis: 50%;
+  border: 1px solid #ebebf0;
+  position: relative;
+  transition: border 0.2s;
+}
+
+.brand-card:hover .brand-card-title {
+  color: #5c8ee6;
+}
+
+.brand-card:hover {
+  border-color: #5c8ee6;
+}
+
+.brand-card-content {
+  margin: 3.125rem;
+}
+
+.brand-card-title {
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 160%;
+  color: #292d33;
+  margin: 0;
+  margin-bottom: 0.625rem;
+  transition: color 0.2s;
+}
+
+.brand-card-text {
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828a99;
+}
+
+.brand-card-svg {
+  margin-left: 3.125rem;
+}
+
 @media (min-width: 1460px) and (max-width: 1920px) {
   html {
     font-size: 14px;
