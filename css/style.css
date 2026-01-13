@@ -184,7 +184,7 @@ body {
 }
 
 .separator {
-  width: 9.375rem;
+  width: 8.375rem;
   height: 2px;
   background: #5c8ee5;
 }
@@ -232,7 +232,7 @@ body {
 
 .header-features-text {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.18rem;
   line-height: 160%;
   margin-bottom: 0;
   margin-top: 1.125rem;
@@ -498,11 +498,11 @@ body {
     margin-bottom: 0;
   }
   .navbar {
-    height: 5rem;
+    height: 5.8rem;
   }
   .navbar-button {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
   }
   .slider-buttons {
     display: flex;
@@ -526,13 +526,19 @@ body {
     flex-grow: 1;
     justify-content: center;
   }
+  .logo-svg {
+    max-width: 10rem;
+  }
+  .header-text {
+    font-size: 14px;
+  }
   .mobile-menu-toggle {
     width: 80px;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1.8rem;
+    padding: 2.3rem 2.5rem;
     border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
   .navbar-light .mobile-menu-line {
@@ -666,10 +672,16 @@ body {
     font-size: 4rem;
   }
   .header-content {
-    padding-top: 3rem;
+    padding-top: 4rem;
   }
   .card {
     flex-basis: 100%;
+  }
+  .header-features {
+    margin-top: 4.25rem;
+  }
+  .header-features-item {
+    height: 11.75rem;
   }
 }
 
@@ -677,10 +689,40 @@ body {
   .container {
     max-width: 90%;
   }
-  .header-title {
-    font-size: 2rem;
+  .section {
+    margin-top: 7.8rem;
   }
-  .header-content {
-    padding-top: 2rem;
+  .section-title {
+    font-size: 36px;
+  }
+  .steps-num {
+    font-size: 4rem;
+  }
+  .navbar-button {
+    width: 80px;
+  }
+  .header-title {
+    margin: 1.56rem 0 1.12rem;
+  }
+  .header-text {
+    margin-bottom: 2.125rem;
+  }
+  .header-button {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    padding: 1.8rem 4rem;
+  }
+  .steps-slider {
+    margin-top: -14px;
+  }
+  .steps-title {
+    margin-top: 1.19rem;
+  }
+  .steps-link {
+    font-size: 1.2rem;
+  }
+  .card-content {
+    padding: 1.5rem 3.125rem;
   }
 }
