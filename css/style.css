@@ -433,6 +433,9 @@ body {
 .brand-card:hover {
   border-color: #5c8ee6;
 }
+.brand-card:hover .brand-card-svg {
+  fill: #5c8ee6;
+}
 
 .brand-card-title {
   grid-area: title;
@@ -454,6 +457,7 @@ body {
 }
 
 .brand-card-svg {
+  fill: #828a99;
   grid-area: logo;
 }
 
