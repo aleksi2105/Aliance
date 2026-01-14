@@ -409,19 +409,20 @@ body {
 
 .brand-cards {
   display: flex;
-
-  flex-wrap: wrap;
 }
 
 .brand-card {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  grid-template-rows: auto 2fr;
+  grid-column-gap: 3.125rem;
+  grid-template-areas:
+    "logo title title"
+    "logo text text";
   text-decoration: none;
-  width: 100%;
   flex-basis: 50%;
+  padding: 3.125rem;
   border: 1px solid #ebebf0;
-  position: relative;
   transition: border 0.2s;
 }
 
@@ -433,31 +434,27 @@ body {
   border-color: #5c8ee6;
 }
 
-.brand-card-content {
-  margin: 3.125rem;
-}
-
 .brand-card-title {
+  grid-area: title;
+  margin: 0;
   font-weight: 400;
   font-size: 1.75rem;
   line-height: 160%;
   color: #292d33;
-  margin: 0;
-  margin-bottom: 0.625rem;
   transition: color 0.2s;
 }
 
 .brand-card-text {
+  grid-area: text;
+  margin: 0;
+  margin-top: 0.625rem;
   font-size: 1rem;
   line-height: 160%;
   color: #828a99;
 }
 
 .brand-card-svg {
-  margin-left: 3.125rem;
-  flex-shrink: 0;
-  width: 11.25rem;
-  height: 11.25rem;
+  grid-area: logo;
 }
 
 @media (min-width: 1460px) and (max-width: 1920px) {
