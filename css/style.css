@@ -457,6 +457,7 @@ body {
 }
 
 .brand-card-svg {
+  width: 100%;
   fill: #828a99;
   grid-area: logo;
 }
@@ -510,6 +511,9 @@ body {
   }
   .card {
     flex-basis: 50%;
+  }
+  .brand-card {
+    grid-template-columns: auto auto;
   }
 }
 
@@ -663,6 +667,9 @@ body {
   .arrows-steps {
     width: 30px;
   }
+  .brand-cards {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 768px) {
@@ -725,5 +732,17 @@ body {
   }
   .card-content {
     padding: 1.5rem 3.125rem;
+  }
+  .brand-card {
+    grid-template-areas:
+      "logo title"
+      "text text";
+    padding: 1.125rem;
+  }
+  .brand-card-text {
+    font-size: 14px;
+  }
+  .brand-card-svg {
+    width: 57px;
   }
 }
