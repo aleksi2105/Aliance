@@ -700,6 +700,120 @@ body {
   line-height: 160%;
   color: #828a99;
 }
+.footer-top {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-logo {
+  width: 12.5rem;
+  height: 3.75rem;
+}
+.footer-info {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-style: normal;
+  color: #292d33;
+  gap: 10px;
+}
+.footer-info-address,
+.footer-info-email {
+  font-style: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  padding-top: 3px;
+}
+.footer-phone {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 160%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #292d33;
+  margin-left: 5.5rem;
+  margin-top: 0.375rem;
+}
+
+.footer-info-email {
+  padding-right: 0.3rem;
+}
+.footer-social {
+  display: flex;
+  gap: 1.25rem;
+}
+.footer-social-link {
+  text-decoration: none;
+}
+.footer-separator {
+  color: #ebebf0;
+  background-color: #ebebf0;
+}
+.footer-bottom {
+  padding-top: 2.2rem;
+  padding-bottom: 0.4rem;
+  display: flex;
+}
+.footer-menu-title {
+  margin-top: 0;
+  margin-bottom: 1.875rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292d33;
+}
+.footer-menu-list {
+  margin: 0;
+  padding-left: 1.25rem;
+  list-style-type: none;
+}
+.footer-menu-column-2 {
+  columns: 20rem auto;
+  min-width: 45rem;
+}
+.footer-menu-link {
+  text-decoration: none;
+  color: #828a99;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  margin-bottom: 0.9375rem;
+  display: block;
+}
+.footer-menu-link-bold {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292d33;
+  margin-bottom: 1.875rem;
+}
+.footer-menu-wrapper:last-child {
+  margin-left: 10.6rem;
+}
+.footer-wrapper {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  font-style: normal;
+
+  color: #828a99;
+}
+.footer-wrapper,
+.footer-legal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5.1875rem;
+}
+.footer-copyright,
+.footer-policy {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 160%;
+  color: inherit;
+}
 
 @media (min-width: 1460px) and (max-width: 1920px) {
   html {
