@@ -801,14 +801,16 @@ body {
   color: #828a99;
 }
 .footer-wrapper,
-.footer-legal {
+.footer-legal,
+.footer-underline {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 5.1875rem;
 }
 .footer-copyright,
-.footer-policy {
+.footer-policy,
+.footer-author {
   font-weight: 400;
   font-size: 0.75rem;
   line-height: 160%;
@@ -1055,6 +1057,14 @@ body {
   .cta-form {
     max-width: 33rem;
   }
+  .footer-phone {
+    font-size: 1rem;
+    margin-left: 2rem;
+  }
+  .footer-menu-column-2 {
+    columns: 1;
+    min-width: 30rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1089,6 +1099,12 @@ body {
   }
   .cta-form-wrapper {
     justify-content: center;
+  }
+  .footer-top {
+    flex-wrap: wrap;
+  }
+  .footer-menu-column-2 {
+    min-width: 20rem;
   }
 }
 
@@ -1166,6 +1182,7 @@ body {
   }
   .section-cta {
     padding-top: 2rem;
+    padding-bottom: 4.25rem;
   }
   .input-group-wrapper {
     flex-direction: column;
@@ -1173,13 +1190,67 @@ body {
   .input-group {
     width: 100%;
   }
+  .input {
+    padding: 2.5rem 1.875rem;
+  }
   .cta-form-button {
     width: 100%;
+    padding: 1.72rem 3.4rem;
   }
   .cta-form-footer {
     flex-direction: column;
+    gap: 2.5rem;
   }
   .cta-form-text {
     font-size: 14px;
+  }
+  .notify-text {
+    font-size: 1rem;
+  }
+  .footer-top {
+    padding-bottom: 1.7rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+  }
+  .footer-logo {
+    width: 26.5rem;
+    height: 3.75rem;
+    max-width: 12.5rem;
+  }
+  .footer-phone {
+    font-size: 28px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+  }
+  .footer-menu-title {
+    font-size: 14px;
+  }
+  .footer-menu-list {
+    margin-bottom: 20px;
+  }
+  .footer-menu-link {
+    font-size: 14px;
+    line-height: 144%;
+  }
+  .footer-menu-wrapper:last-child {
+    margin: 0;
+  }
+  .footer-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-legal,
+  .footer-underline {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .footer-copyright,
+  .footer-policy,
+  .footer-author {
+    font-size: 12px;
+    margin: 0;
   }
 }
