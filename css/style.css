@@ -892,6 +892,8 @@ body {
   display: block;
   width: 100%;
   margin-bottom: 24px;
+  padding: 1.1rem 3.75rem;
+  font-size: 0.875rem;
 }
 
 @media (min-width: 1460px) and (max-width: 1920px) {
@@ -1329,5 +1331,9 @@ body {
   .footer-author {
     font-size: 12px;
     margin: 0;
+  }
+  .modal-form-button {
+    padding: 1.5rem 3.75rem;
+    font-size: 14px;
   }
 }
