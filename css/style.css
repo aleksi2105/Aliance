@@ -43,14 +43,22 @@ body {
 .navbar-light {
   background-color: #ffffff;
   color: #292d33;
-  height: 4.625rem;
+}
+.navbar-light .logo-light {
+  display: none;
+}
+.navbar-light .logo-dark {
+  display: block;
 }
 
+.navbar-scroll {
+  height: 4.625rem;
+}
 .phone-icon {
   fill: #5c8ee6;
 }
 
-.logo {
+.logo-dark {
   display: none;
 }
 
