@@ -940,6 +940,16 @@ body {
   line-height: 160%;
   color: #292d33;
 }
+.bg-grey-image {
+  position: relative;
+  background-color: #f0f2f5;
+}
+.header-page-image {
+  position: absolute;
+  bottom: 0;
+  left: 75rem;
+  max-height: 90%;
+}
 
 @media (min-width: 1460px) and (max-width: 1920px) {
   html {
@@ -971,6 +981,9 @@ body {
   }
   .section-cta {
     padding-top: 0;
+  }
+  .header-page-image {
+    left: 60rem;
   }
 }
 
@@ -1011,6 +1024,9 @@ body {
   }
   .cta-form {
     max-width: 34rem;
+  }
+  .header-page-image {
+    left: 50rem;
   }
 }
 
@@ -1189,6 +1205,9 @@ body {
     columns: 1;
     min-width: 30rem;
   }
+  .header-page-image {
+    left: 35rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1229,6 +1248,9 @@ body {
   }
   .footer-menu-column-2 {
     min-width: 20rem;
+  }
+  .header-page-image {
+    left: 25rem;
   }
 }
 
@@ -1380,5 +1402,8 @@ body {
   .modal-form-button {
     padding: 1.5rem 3.75rem;
     font-size: 14px;
+  }
+  .header-page-image {
+    display: none;
   }
 }
