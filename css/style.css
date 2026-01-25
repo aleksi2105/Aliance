@@ -950,6 +950,20 @@ body {
   left: 75rem;
   max-height: 90%;
 }
+.header-page-background {
+  background-image: url("../img/blog-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
+  color: #ffffff;
+}
+.header-page-background .breadcrumb > li > a {
+  color: #ffffff;
+}
+.header-page-background .breadcrumb > li > span {
+  color: #ffffff;
+}
 
 @media (min-width: 1460px) and (max-width: 1920px) {
   html {
