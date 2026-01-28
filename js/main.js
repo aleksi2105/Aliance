@@ -132,3 +132,35 @@ document.addEventListener('keyup', (event) => {
     modal.classList.toggle('is-open')
   }
 })
+
+const forms = document.querySelectorAll("form");
+forms.forEach((form) => {
+  const validator = new JustValidate(form, {
+    errorFieldCssClass: "is-invalid",
+  });
+  validator
+    .addField('[name=username]', [
+      {
+        rule: 'required',
+        errorMessage: "Укажите имя",
+      },
+
+      {
+        rule: 'maxLength',
+        value: 50,
+        errorMessage: "Максимально 50 символов",
+      },
+    ])
+    .addField('[name=userphone]', [
+      {
+        rule: 'required',
+        errorMessage: "Укажите телефон",
+      },
+    ])
+    .onSuccess((event) => {
+      console.log(event.target.getAttribute("action"));
+
+      // event.currentTarget.submit();
+    });
+  ;
+})

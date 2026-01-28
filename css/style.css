@@ -37,7 +37,9 @@ body {
   color: #ffffff;
   position: fixed;
   border-bottom: 1px solid rgba(235, 235, 240, 0.2);
-  transition: background-color 0.2s, height 0.2s;
+  transition:
+    background-color 0.2s,
+    height 0.2s;
 }
 
 .navbar-light {
@@ -667,7 +669,10 @@ body {
   font-weight: 400;
   font-size: 16px;
   color: #828a99;
-  transition: top 0.2s, left 0.2s, font-size 0.2s;
+  transition:
+    top 0.2s,
+    left 0.2s,
+    font-size 0.2s;
 }
 .input:focus {
   border: 1px solid #5c8ee6;
@@ -680,6 +685,20 @@ body {
   font-size: 0.625rem;
   background-color: inherit;
   padding: 0 10px;
+}
+.input.is-invalid {
+  border: 1px solid red;
+}
+.just-validate-error-label {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 0.8rem;
+  background-color: inherit;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: inline-block;
+  transform: translateY(-50%);
 }
 .cta-form-footer {
   display: flex;
@@ -854,7 +873,9 @@ body {
   position: relative;
   transform: translateY(-10%);
   opacity: 0;
-  transition: transform 0.3s, opacity 0.3s;
+  transition:
+    transform 0.3s,
+    opacity 0.3s;
 }
 .modal-close {
   display: block;
