@@ -26,7 +26,7 @@
                 <input
                   id="user-phone"
                   type="tel"
-                  class="input"
+                  class="input phone-mask"
                   name="userphone"
                   placeholder=" "
                   maxlength="30"
@@ -210,7 +210,7 @@
               <input
                 id="modal-user-phone"
                 type="tel"
-                class="input modal-input"
+                class="input modal-input phone-mask"
                 name="userphone"
                 placeholder=" "
               />
