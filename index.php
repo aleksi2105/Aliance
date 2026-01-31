@@ -135,7 +135,7 @@
         >
       </div>
       <!-- /.header-phone -->
-      <button class="navbar-button button" data-toggle="modal">
+      <button class="navbar-button button" data-toggle="modal" data-target="#feedback-modal">
         <svg class="button-icon" width="24" height="24">
           <use xlink:href="./img/sprite.svg#phone"></use>
         </svg>
@@ -148,7 +148,7 @@
         <div class="header-content">
           <div class="separator"></div>
           <h1 class="header-title">
-            <?php echo "Главная страница"; ?>
+            Комплексное обеспечение товарами и расходными материалами бизнеса
           </h1>
           <p class="header-text">
             Высокий уровень вовлечения представителей целевой аудитории является
@@ -156,7 +156,7 @@
             будущего проекта напрямую зависит от анализа существующих паттернов
             поведения.
           </p>
-          <div class="button header-button">Подробнее о компании</div>
+          <button class="button header-button" data-toggle="modal" data-target="#feedback-modal">Подробнее о компании</button>
         </div>
         <!-- /.header-content -->
 
