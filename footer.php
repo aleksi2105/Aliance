@@ -251,9 +251,9 @@
         <p class="modal-text">
           Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
         </p>
-        <button  class="button modal-form-button">
+        <a href="/" class="button alert-modal-form-button">
               Вернуться на главную
-        </button>
+        </a>
       </div>
     </div>
     <script src="./js/swiper-bundle.min.js"></script>

@@ -877,6 +877,14 @@ body {
     transform 0.3s,
     opacity 0.3s;
 }
+.alert-modal-form-button {
+  display: block;
+  width: 100%;
+  margin-bottom: 24px;
+  padding: 1.1rem 6rem;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
 .modal-close {
   display: block;
   position: absolute;
@@ -941,6 +949,7 @@ body {
   justify-content: center;
   border: 1px solid #ebebf0;
 }
+
 .header-pages {
   padding-top: 5.875rem;
 }
