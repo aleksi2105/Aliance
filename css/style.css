@@ -229,15 +229,29 @@ body {
   padding: 0;
   margin-top: 6.25rem;
   list-style: none;
-  color: #ffffff;
+  color: #292d33;
   position: relative;
+}
+
+.front-page .header-features {
+  color: #ffffff;
+}
+.front-page .header-features-item {
+  border: 1px solid rgba(235, 235, 240, 0.2);
+}
+.front-page .slider-button-prev {
+  border: 1px solid rgba(235, 235, 240, 0.2);
+  color: #ffffff;
+}
+.front-page .slider-button-next {
+  color: #ffffff;
 }
 
 .header-features-item {
   padding: 1.75rem 3.125rem;
   height: auto;
   width: 18rem;
-  border: 1px solid rgba(235, 235, 240, 0.2);
+  border: 1px solid #ebebf0;
 }
 
 .header-features-text {
@@ -258,7 +272,8 @@ body {
 .slider-button-next {
   height: 100%;
   flex-basis: 50%;
-  border: 1px solid rgba(235, 235, 240, 0.2);
+  color: #292d33;
+  border: 1px solid #ebebf0;
   display: flex;
   align-items: center;
   justify-content: center;
