@@ -114,16 +114,16 @@
           <a href="/about.php" class="header-nav-link">О компании</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Контрактное производство</a>
+          <a href="/contracts.php" class="header-nav-link">Контрактное производство</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Собственные торговые марки</a>
+          <a href="trademarks.php" class="header-nav-link">Собственные торговые марки</a>
         </li>
         <li class="header-nav-item">
           <a href="#" class="header-nav-link">Новости</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Контакты</a>
+          <a href="contact.php" class="header-nav-link">Контакты</a>
         </li>
       </ul>
       <div class="header-phone">
@@ -381,37 +381,7 @@
         <!-- /.cards -->
       </div>
     </section>
-    <section class="section brands">
-      <div class="container">
-        <div class="separator"></div>
-        <h2 class="section-title">собственные торговые марки</h2>
-        <div class="brand-cards">
-          <a href="#" class="brand-card">
-            <svg class="brand-card-svg">
-              <use xlink:href="./img/sprite.svg#AGTech-logo"></use>
-            </svg>
-            <h3 class="brand-card-title">Автохимия AG-Tech</h3>
-            <p class="brand-card-text">
-              Для современного мира разбавленное изрядной долей эмпатии,
-              рациональное мышление создаёт предпосылки для поставленных
-              обществом задач.
-            </p>
-          </a>
-          <a href="#" class="brand-card">
-            <svg class="brand-card-svg">
-              <use xlink:href="./img/sprite.svg#logo-blue"></use>
-            </svg>
-            <h3 class="brand-card-title">Автохимия AP</h3>
-            <p class="brand-card-text">
-              Для современного мира разбавленное изрядной долей эмпатии,
-              рациональное мышление создаёт предпосылки для поставленных
-              обществом задач.
-            </p>
-          </a>
-        </div>
-        <!-- /.cards -->
-      </div>
-    </section>
+    <?php $block_title = "Собственные торговые марки"; include_once('./template-parts/trademarks-block.php')?>
     <section class="section founder">
       <img src="./img/Founder.jpg" alt="Founder" class="founder-photo" />
       <div class="container">

@@ -1011,6 +1011,21 @@ body {
 .header-page-background .breadcrumb > li > span {
   color: #ffffff;
 }
+.about-experts {
+  display: flex;
+  justify-content: space-between;
+  gap: 7.5rem;
+}
+.big-photo-logo {
+  max-width: 30rem;
+}
+.about-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828a99;
+  margin-top: -1.25rem;
+}
 
 @media (min-width: 1460px) and (max-width: 1920px) {
   html {
