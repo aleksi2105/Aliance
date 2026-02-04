@@ -18,4 +18,6 @@ include_once('template-parts\header-page.php');?>
 <!-- /.section section-about -->
 <?php include_once('template-parts\our-production-block.php');?>
  <!-- /.section production -->
+<?php include_once('template-parts\founder-block.php');?>
+<!-- /.section-founder -->
 <?php include_once('template-parts\footer.php');?>
