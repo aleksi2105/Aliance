@@ -1026,7 +1026,7 @@ body {
 .header-page-background .breadcrumb > li > span {
   color: #ffffff;
 }
-.about-experts {
+.about-wrapper {
   display: flex;
   justify-content: space-between;
   gap: 7.5rem;
@@ -1040,6 +1040,26 @@ body {
   line-height: 160%;
   color: #828a99;
   margin-top: -1.25rem;
+}
+.production-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 7.5rem;
+}
+.production-text,
+.production-text2 {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828a99;
+}
+.production-text2 {
+  margin-bottom: 1.875rem;
+}
+
+.production-lab-img {
+  max-height: 46.875rem;
+  margin-top: -3.125rem;
 }
 
 @media (min-width: 1460px) and (max-width: 1920px) {
