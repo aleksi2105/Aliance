@@ -1109,6 +1109,38 @@ body {
   margin-top: 1.875rem;
   margin-right: 18rem;
 }
+.seo {
+  margin-top: 6.25rem;
+}
+.seo-title {
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 160%;
+  color: #292d33;
+  margin: 0;
+  margin-bottom: 0.625rem;
+}
+.seo-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #828a99;
+  margin: 0;
+}
+.seo-button-group {
+  display: flex;
+  margin-top: 1.25rem;
+  gap: 15px;
+}
+.button-link-more {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #5c8ee5;
+}
 
 @media (min-width: 1460px) and (max-width: 1920px) {
   html {
