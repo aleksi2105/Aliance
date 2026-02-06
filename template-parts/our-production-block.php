@@ -1,4 +1,4 @@
-<section class="section">
+<section class="section our-production">
   <div class="container production-wrapper">
     <div class="production-description">
       <div class="separator"></div>

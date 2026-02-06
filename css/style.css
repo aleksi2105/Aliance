@@ -523,6 +523,7 @@ body {
   font-size: 1rem;
   line-height: 160%;
 }
+
 .clients-wrapper {
   display: flex;
   gap: 3.125rem;
@@ -530,6 +531,7 @@ body {
 
 .clients-content {
   flex-basis: 50%;
+  margin-top: -1rem;
 }
 .clients-list {
   list-style: none;
@@ -625,7 +627,7 @@ body {
 }
 .section-cta {
   position: relative;
-  padding-top: 6.25rem;
+  padding-top: 9.25rem;
   margin-top: 12.175rem;
   padding-bottom: 6.25rem;
 }
@@ -1035,12 +1037,18 @@ body {
 .big-photo-logo {
   max-width: 30rem;
 }
+.about-description {
+  margin-top: 2.7rem;
+}
 .about-text {
   font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
   color: #828a99;
   margin-top: -1.25rem;
+}
+.our-production {
+  margin-top: -0.8rem;
 }
 .production-wrapper {
   display: flex;
@@ -1049,13 +1057,15 @@ body {
 }
 .production-text,
 .production-text2 {
+  margin: 0;
+  margin-bottom: 1.875rem;
   font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
   color: #828a99;
 }
-.production-text2 {
-  margin-bottom: 1.875rem;
+.production-text {
+  margin-top: -1.5rem;
 }
 
 .production-lab-img {
