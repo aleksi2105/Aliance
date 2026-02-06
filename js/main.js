@@ -113,6 +113,17 @@ const swiperBlog = new Swiper(".blog-slider", {
   }
 });
 
+const swiperResearch = new Swiper(".researchs-slider", {
+  speed: 400,
+  slidesPerView: 2,
+  spaceBetween: 30,
+  centeredSlidesBounds: true,
+  navigation: {
+    nextEl: '.researchs-button-next',
+    prevEl: '.researchs-button-prev',
+  },
+});
+
 let currentModal;
 let modalDialog;
 let alertModal = document.querySelector("#alert-modal");
