@@ -122,6 +122,18 @@ const swiperResearch = new Swiper(".researchs-slider", {
     nextEl: '.researchs-button-next',
     prevEl: '.researchs-button-prev',
   },
+  breakpoints: {
+    300: {
+      slidesPerView: 1,
+    },
+    576: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 1,
+      centeredSlidesBounds: false,
+    }
+  }
 });
 
 let currentModal;

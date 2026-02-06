@@ -1368,6 +1368,9 @@ body {
   .header-page-image {
     left: 35rem;
   }
+  .about-wrapper {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1411,6 +1414,12 @@ body {
   }
   .header-page-image {
     left: 25rem;
+  }
+  .production-wrapper {
+    flex-direction: column;
+  }
+  .research-text-wrapper {
+    display: block;
   }
 }
 
@@ -1565,5 +1574,8 @@ body {
   }
   .header-page-image {
     display: none;
+  }
+  .researchs-buttons {
+    margin-right: 1rem;
   }
 }
