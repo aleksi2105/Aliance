@@ -144,7 +144,7 @@
     </nav>
     <!-- /.navbar -->
     <header class="header-pages <?= $header_style;?>">
-      <div class="bg-grey">
+      
         <div class="container header-page">
           <div class="separator"></div>
           <h1 class="header-title"><?= $page_title;?></h1>
@@ -159,41 +159,4 @@
         </div>
       </div>
     </header>
-    <!-- <header class="header-pages">
-      <div class="bg-grey-image">
-        <img
-          src="./img/avto-him-header.png"
-          alt="sprays"
-          class="header-page-image"
-        />
-        <div class="container header-page">
-          <div class="separator"></div>
-          <h1 class="header-title">О компании</h1>
-          <nav aria-label="Хлебные крошки">
-            <ol class="breadcrumb">
-              <li><a href="/">Главная</a></li>
-              <li aria-current="page">
-                <span>О компании</span>
-              </li>
-            </ol>
-          </nav>
-        </div>
-      </div>
-    </header>
-    <header class="header-pages">
-      <div class="header-page-background">
-        <div class="container header-page">
-          <div class="separator"></div>
-          <h1 class="header-title">О компании</h1>
-          <nav aria-label="Хлебные крошки">
-            <ol class="breadcrumb">
-              <li><a href="/">Главная</a></li>
-              <li aria-current="page">
-                <span>О компании</span>
-              </li>
-            </ol>
-          </nav>
-        </div>
-      </div>
-    </header> -->
-    <!-- /.header-pages -->
+    

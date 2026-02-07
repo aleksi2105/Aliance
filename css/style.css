@@ -1005,15 +1005,14 @@ body {
   line-height: 160%;
   color: #292d33;
 }
-.bg-grey-image {
-  position: relative;
+.header-bg-grey {
   background-color: #f0f2f5;
 }
 .header-page-image {
-  position: absolute;
-  bottom: 0;
-  left: 75rem;
-  max-height: 90%;
+  background-color: #f0f2f5;
+  background-image: url(../img/avto-him-header.png);
+  background-repeat: no-repeat;
+  background-position: right 12.125rem bottom;
 }
 .header-page-background {
   background-image: url("../img/blog-background.png");
