@@ -1044,7 +1044,8 @@ body {
   font-size: 1rem;
   line-height: 160%;
   color: #828a99;
-  margin-top: -1.25rem;
+  margin-top: 0;
+  margin-bottom: 1.25rem;
 }
 .our-production {
   margin-top: -0.8rem;
