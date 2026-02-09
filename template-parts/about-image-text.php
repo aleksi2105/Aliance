@@ -12,7 +12,7 @@ $description = $description ?? 'Разнообразный и богатый о�
       <div class="about-description">
         <div class="separator"></div>
         <h2 class="section-title"><?= $aboutTitle ?></h2>
-        <p class="about-text"><?= htmlspecialchars($description) ?></p>
+        <p class="about-text"><?= $description ?></p>
       </div>
     </div>
     <?php include_once('template-parts\swiper-features.php');?>
