@@ -1024,6 +1024,7 @@ body {
   position: relative;
   color: #ffffff;
 }
+
 .header-page-background .breadcrumb > li > a {
   color: #ffffff;
 }
@@ -1172,6 +1173,30 @@ body {
   line-height: 160%;
   color: #292d33;
   padding: 0.625rem;
+}
+.distributor {
+  min-height: 42.25rem;
+  background-color: #f0f2f5;
+  position: relative;
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
+}
+.distributor-image {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+.distributor-wrapper {
+  max-width: 45rem;
+}
+.download-button {
+  margin-top: 3.125rem;
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
 }
 @media (min-width: 1460px) and (max-width: 1920px) {
   html {

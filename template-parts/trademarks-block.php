@@ -8,7 +8,7 @@
         }
         ?>
         <div class="brand-cards">
-          <a href="#" class="brand-card">
+          <a href="ag-tech.php" class="brand-card">
             <svg class="brand-card-svg">
               <use xlink:href="./img/sprite.svg#AGTech-logo"></use>
             </svg>
