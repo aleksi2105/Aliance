@@ -170,7 +170,7 @@
     <?php $block_title = "Собственные торговые марки"; include_once('./template-parts/trademarks-block.php');?>
     <?php $block_title = "Подробнее о компании"; include_once('template-parts\founder-block.php');?>
     <?php include_once('template-parts\clients-block.php')?>
-    <section class="section blog">
+    <section class="section">
       <div class="container">
         <div class="separator"></div>
         <h2 class="section-title">Блог экспертов в области производства</h2>
@@ -220,7 +220,7 @@
           </div>
 
           <div class="blog-slider-footer">
-            <a href="#" class="button-link">Весь блог</a>
+            <a href="blog.php" class="button-link">Весь блог</a>
             <div class="blog-buttons primary-buttons-wrapper">
               <div class="blog-button-prev primary-button-prev">
                 <svg class="arrows-steps" width="36" height="24">

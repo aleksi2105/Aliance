@@ -1198,6 +1198,29 @@ body {
   align-items: center;
   gap: 0.625rem;
 }
+.blog-wrapper {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.875rem;
+}
+.blog-pagination {
+  margin-top: 3.125rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+.blog-pagination-item {
+  border: none;
+  background: transparent;
+  padding: 6px 10px;
+  font-size: 14px;
+  color: #111827;
+  cursor: pointer;
+}
+.blog-pagination-item-active {
+  border: 1px solid #5c8ee5;
+}
 @media (min-width: 1460px) and (max-width: 1920px) {
   html {
     font-size: 14px;
