@@ -5,7 +5,7 @@ include_once('template-parts\header-page.php');?>
 <section class="section">
   <div class="container blog">
     <div class="blog-wrapper">
-      <a href="#" class="swiper-slide blog-card">
+      <a href="blog-more.php" class="swiper-slide blog-card">
       <img
         src="./img/blog/blog-photo-machine.jpg"
         alt="blog-photo"
@@ -29,7 +29,7 @@ include_once('template-parts\header-page.php');?>
         функционально разнесены на независимые элементы. Безусловно,
         высокотехнологичная...</p>
     </a>
-    <a href="#" class="swiper-slide blog-card">
+    <a href="blog-more.php" class="swiper-slide blog-card">
       <img
         src="./img/blog/blog-photo-machine.jpg"
         alt="blog-photo"
@@ -53,7 +53,7 @@ include_once('template-parts\header-page.php');?>
         функционально разнесены на независимые элементы. Безусловно,
         высокотехнологичная...</p>
     </a>
-    <a href="#" class="swiper-slide blog-card">
+    <a href="blog-more.php" class="swiper-slide blog-card">
       <img
         src="./img/blog/blog-photo-machine.jpg"
         alt="blog-photo"
@@ -77,7 +77,7 @@ include_once('template-parts\header-page.php');?>
         функционально разнесены на независимые элементы. Безусловно,
         высокотехнологичная...</p>
     </a>
-    <a href="#" class="swiper-slide blog-card">
+    <a href="blog-more.php" class="swiper-slide blog-card">
       <img
         src="./img/blog/blog-photo-machine.jpg"
         alt="blog-photo"
@@ -101,7 +101,7 @@ include_once('template-parts\header-page.php');?>
         функционально разнесены на независимые элементы. Безусловно,
         высокотехнологичная...</p>
     </a>
-    <a href="#" class="swiper-slide blog-card">
+    <a href="blog-more.php" class="swiper-slide blog-card">
       <img
         src="./img/blog/blog-photo-machine.jpg"
         alt="blog-photo"

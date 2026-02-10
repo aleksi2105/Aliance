@@ -1021,8 +1021,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
+  min-height: 22.875rem;
   position: relative;
   color: #ffffff;
+}
+.header-page-background .header-title {
+  min-width: 75rem;
 }
 
 .header-page-background .breadcrumb > li > a {
