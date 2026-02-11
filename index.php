@@ -165,7 +165,9 @@
       </div>
       <!-- /.container -->
     </header>
-    <?php include_once('template-parts\steps-swiper-block.php');?>
+    <?php
+    $showCta = true; 
+    include_once('template-parts\steps-swiper-block.php');?>
     <?php $block_title = "Контрактное производство"; include_once('template-parts\contracts-production-block.php');?>
     <?php $block_title = "Собственные торговые марки"; include_once('./template-parts/trademarks-block.php');?>
     <?php $block_title = "Подробнее о компании"; include_once('template-parts\founder-block.php');?>

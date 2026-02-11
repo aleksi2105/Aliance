@@ -1,6 +1,7 @@
 <?php 
 $page_title = 'Автохимия <b>AG-Tech</b> ';
 $header_style = 'header-page-image';
+$showCta = true;
 $mainImage = 'img\work.png';
 $mainAlt = 'Работа с химией';
 $aboutTitle = 'Собственное производство <br> автохимия AG-Tech';

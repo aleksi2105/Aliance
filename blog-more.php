@@ -1,6 +1,7 @@
 <?php
 $page_title = 'Современная методология разработки одухотворила всех причастных';
 $header_style = 'header-page-background';
+$showCta = true;
 include_once('template-parts\header-page.php');?>
 
 <section class="section blog-text">

@@ -1369,6 +1369,12 @@ body {
   font-style: normal;
   color: #292d33;
 }
+.politics-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292d33;
+}
 @media (min-width: 1460px) and (max-width: 1920px) {
   html {
     font-size: 14px;

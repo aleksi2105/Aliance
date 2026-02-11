@@ -1,6 +1,7 @@
 <?php
 $page_title = 'Контакты';
 $header_style = 'header-bg-grey';
+$showCta = true;
 include_once('template-parts\header-page.php');?>
 <section class="section contacts">
   <div class="container">

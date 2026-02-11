@@ -1,4 +1,5 @@
- <section class="cta">
+  <section class="cta">
+    <?php if ($showCta): ?>
       <div class="bg-grey section-cta">
         <img src="./img/cta.png" alt="spray" class="cta-image" />
         <div class="cta-form-wrapper container">
@@ -58,6 +59,7 @@
         <!-- /.cta-form-wrapper -->
       </div>
     </section>
+    <?php endif; ?>
     <footer class="footer">
       <div class="container">
         <div class="footer-top">
@@ -165,7 +167,7 @@
             <p class="footer-copyright">
               &copy; <?php echo date('Y')?> «Aliance Production». Все права защищены.
             </p>
-            <a href="#" class="footer-policy">Политики конфиденциальности</a>
+            <a href="politics.php" class="footer-policy">Политики конфиденциальности</a>
           </div>
           <!-- /.footer-legal -->
           <div class="footer-author">

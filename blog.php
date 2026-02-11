@@ -1,6 +1,7 @@
 <?php
 $page_title = 'Блог';
 $header_style = 'header-bg-grey';
+$showCta = true;
 include_once('template-parts\header-page.php');?>
 <section class="section">
   <div class="container blog">
