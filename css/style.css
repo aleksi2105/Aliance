@@ -1225,6 +1225,129 @@ body {
 .blog-pagination-item-active {
   border: 1px solid #5c8ee5;
 }
+.blog-text-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 960px;
+  grid-template-rows: auto 2fr;
+  grid-column-gap: 15.625rem;
+  grid-template-areas:
+    "social article"
+    "social article";
+  text-decoration: none;
+  margin-bottom: 9.375rem;
+}
+.blog-text-social {
+  grid-area: social;
+}
+
+.blog-text-social-title {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828a99;
+}
+.social-link-group {
+  display: flex;
+  gap: 0.625rem;
+  padding: 0;
+}
+.social-link-item {
+  border: 1px solid #ebebf0;
+  width: 3.125rem;
+  height: 3.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-link-item:hover {
+  border-color: #5c8ee6;
+}
+.blog-text-article {
+  grid-area: article;
+}
+.article-first-title {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 2.25rem;
+  line-height: 160%;
+  color: #292d33;
+}
+.article-first-text {
+  margin-top: 1.25rem;
+  margin-bottom: 3.125rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292d33;
+}
+.article-second-title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 160%;
+  color: #292d33;
+}
+.article-second-text {
+  margin-top: 1.25rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292d33;
+}
+.article-image {
+  width: 100%;
+}
+.article-third-title {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 160%;
+  color: #292d33;
+}
+.article-third-list {
+  padding: 0;
+  margin-top: 1.25rem;
+}
+.article-third-list-item {
+  margin-bottom: 0.625rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292d33;
+}
+.article-fourth-title {
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 160%;
+  color: #292d33;
+}
+.article-fourth-text {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292d33;
+}
+.article-list-num {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #5c8ee5;
+}
+.blog-buttons {
+  margin-top: 1.875rem;
+}
+.color-text {
+  color: #5c8ee5;
+  text-decoration: underline;
+}
+.bold-text {
+  font-weight: bold;
+}
 @media (min-width: 1460px) and (max-width: 1920px) {
   html {
     font-size: 14px;
