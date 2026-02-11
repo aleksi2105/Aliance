@@ -1348,6 +1348,27 @@ body {
 .bold-text {
   font-weight: bold;
 }
+.contacts {
+  margin: 0;
+}
+.contacts-phone {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 160%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #292d33;
+}
+.contacts-map {
+  width: 100%;
+}
+.contacts-info-address,
+.contacts-info-email {
+  font-size: 1.375rem;
+  text-decoration: none;
+  font-style: normal;
+  color: #292d33;
+}
 @media (min-width: 1460px) and (max-width: 1920px) {
   html {
     font-size: 14px;
