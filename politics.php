@@ -1,6 +1,7 @@
 <?php
 $page_title = 'Политика конфиденциальности';
 $header_style = 'header-bg-grey';
+$showTitle = true;
 $showCta = false;
 include_once('template-parts\header-page.php');?>
 <section class="section politics">

@@ -172,7 +172,7 @@ body {
   font-size: 1.0625rem;
   line-height: 160%;
   color: #ffffff;
-  background: #3a71d1;
+  background: #5c8ee5;
   border: none;
   cursor: pointer;
 }
@@ -1025,6 +1025,7 @@ body {
   position: relative;
   color: #ffffff;
 }
+
 .header-page-background .header-title {
   min-width: 75rem;
 }
@@ -1375,6 +1376,39 @@ body {
   line-height: 160%;
   color: #292d33;
 }
+.error-wrapper {
+  display: flex;
+  max-width: 30rem;
+  margin: auto;
+  margin-top: 9.375rem;
+  margin-bottom: 9.375rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.error-404 {
+  font-weight: bold;
+  font-size: 18.75rem;
+  line-height: 100%;
+  font-family: "Bebas Neue";
+  color: #5c8ee5;
+}
+.error-title {
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 160%;
+  text-align: center;
+  color: #292d33;
+}
+.error-text {
+  margin-bottom: 1.875rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  text-align: center;
+  color: #292d33;
+}
+
 @media (min-width: 1460px) and (max-width: 1920px) {
   html {
     font-size: 14px;

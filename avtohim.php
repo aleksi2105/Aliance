@@ -1,6 +1,7 @@
 <?php
 $page_title = 'Автомобильная химия';
 $header_style = 'header-page-image';
+$showTitle = true;
 $showCta = true;
 $mainImage = 'img\lab-tech.jpg';
 $mainAlt = 'Лабораторное оборудование';

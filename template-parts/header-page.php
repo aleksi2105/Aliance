@@ -120,7 +120,7 @@
           <a href="./trademarks.php" class="header-nav-link">Собственные торговые марки</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Новости</a>
+          <a href="error.php" class="header-nav-link">Новости</a>
         </li>
         <li class="header-nav-item">
           <a href="./contact.php" class="header-nav-link">Контакты</a>
@@ -143,7 +143,8 @@
       </button>
     </nav>
     <!-- /.navbar -->
-    <header class="header-pages <?= $header_style;?>">
+    <?php if ($showTitle): ?>
+      <header class="header-pages <?= $header_style;?>">
       
         <div class="container header-page">
           <div class="separator"></div>
@@ -156,7 +157,8 @@
               </li>
             </ol>
           </nav>
+         </div>
         </div>
-      </div>
-    </header>
+      </header>
+      <?php endif; ?>
     

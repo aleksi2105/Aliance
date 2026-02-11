@@ -1,6 +1,7 @@
 <?php 
 $page_title = 'О компании';
 $header_style = 'header-bg-grey';
+$showTitle = true;
 $showCta = true;
 include_once('template-parts\header-page.php');?>
 <?php include_once('template-parts\about-image-text.php')?>

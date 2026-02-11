@@ -1,6 +1,7 @@
 <?php
 $page_title = 'Контрактное производство';
 $header_style = 'header-bg-grey';
+$showTitle = true;
 $showCta = true;
 include_once('template-parts\header-page.php');
 include_once('template-parts\contracts-production-block.php');?>
