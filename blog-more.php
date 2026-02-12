@@ -8,32 +8,7 @@ include_once('template-parts\header-page.php');?>
 <section class="section blog-text">
   <div class="container">
     <div class="blog-text-wrapper">
-      <div class="blog-text-social">
-        <h5 class="blog-text-social-title">Поделиться:</h5>
-        <ul class="social-link-group">
-          <a href="#" class="social-link-item">
-            <svg class="button-icon" width="24" height="24">
-              <use xlink:href="./img/sprite.svg#vk"></use>
-            </svg>
-          </a>
-          <a href="#" class="social-link-item">
-            <svg class="button-icon" width="24" height="24">
-              <use xlink:href="./img/sprite.svg#facebook"></use>
-            </svg>
-          </a>
-          <a href="#" class="social-link-item">
-            <svg class="button-icon" width="24" height="24">
-              <use xlink:href="./img/sprite.svg#twitter"></use>
-            </svg>
-          </a>
-          <a href="#" class="social-link-item">
-            <svg class="button-icon" width="24" height="24">
-              <use xlink:href="./img/sprite.svg#google-plus"></use>
-            </svg>
-          </a>
-        </ul>
-      </div>
-      <!-- /.blog-text-social -->
+      
       <div class="blog-text-article">
         <h2 class="article-first-title">Реализация намеченных плановых заданий</h2>
         <p class="article-first-text">Значимость этих проблем настолько очевидна, что постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Задача организации, в особенности же укрепление и развитие структуры в значительной степени обуславливает создание форм развития. С другой стороны укрепление и развитие структуры способствует подготовки и реализации системы обучения кадров, соответствует насущным потребностям. Повседневная практика показывает, что укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке позиций, занимаемых участниками в отношении поставленных задач.</p>
@@ -75,6 +50,32 @@ include_once('template-parts\header-page.php');?>
          <!-- /.article-fourth-list -->
       </div>
        <!-- /.blog-text-article -->
+      <div class="blog-text-social">
+        <h5 class="blog-text-social-title">Поделиться:</h5>
+        <ul class="social-link-group">
+          <a href="#" class="social-link-item">
+            <svg class="button-icon" width="24" height="24">
+              <use xlink:href="./img/sprite.svg#vk"></use>
+            </svg>
+          </a>
+          <a href="#" class="social-link-item">
+            <svg class="button-icon" width="24" height="24">
+              <use xlink:href="./img/sprite.svg#facebook"></use>
+            </svg>
+          </a>
+          <a href="#" class="social-link-item">
+            <svg class="button-icon" width="24" height="24">
+              <use xlink:href="./img/sprite.svg#twitter"></use>
+            </svg>
+          </a>
+          <a href="#" class="social-link-item">
+            <svg class="button-icon" width="24" height="24">
+              <use xlink:href="./img/sprite.svg#google-plus"></use>
+            </svg>
+          </a>
+        </ul>
+      </div>
+      <!-- /.blog-text-social -->
     </div>
     <!-- /.blog-text-wrapper -->
     <div class="blog-articles-more">

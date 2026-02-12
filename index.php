@@ -180,7 +180,7 @@
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
-            <a href="#" class="swiper-slide blog-card"
+            <a href="blog-more.php" class="swiper-slide blog-card"
               ><img
                 src="./img/blog/blog-photo-machine.jpg"
                 alt="blog-photo"
@@ -195,7 +195,7 @@
                 предоставлены...
               </p>
             </a>
-            <a href="#" class="swiper-slide blog-card"
+            <a href="blog-more.php" class="swiper-slide blog-card"
               ><img
                 src="./img/blog/blog-photo-pipes.jpg"
                 alt="blog-photo"
