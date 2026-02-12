@@ -753,7 +753,7 @@ body {
   color: #828a99;
 }
 .footer-top {
-  padding-top: 3.125rem;
+  padding-top: 2.125rem;
   padding-bottom: 3.125rem;
   display: flex;
   align-items: center;
@@ -1062,7 +1062,7 @@ body {
   margin-bottom: 1.25rem;
 }
 .our-production {
-  margin-top: -0.8rem;
+  margin-top: 6rem;
 }
 .production-wrapper {
   display: flex;
@@ -1079,7 +1079,7 @@ body {
   color: #828a99;
 }
 .production-text {
-  margin-top: -1.5rem;
+  margin-top: -0.5rem;
 }
 
 .production-lab-img {
@@ -1159,11 +1159,12 @@ body {
   position: absolute;
   right: 0;
   top: 0;
-  width: 40%;
+  width: 44%;
   height: 100%;
   object-fit: cover;
 }
 .types-text {
+  margin-top: 2.0625rem;
   max-width: 52.5rem;
   font-weight: 400;
   font-size: 16px;
@@ -1173,6 +1174,8 @@ body {
 .types-list {
   list-style: none;
   padding: 0;
+  margin-right: 30px;
+  margin-top: 38px;
   columns: 4 auto;
 }
 .types-list-item {
@@ -1539,6 +1542,9 @@ body {
     width: 120px;
     margin-left: auto;
   }
+  .header-page-image {
+    background-position: right 0.125rem bottom;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -1743,7 +1749,12 @@ body {
     right: -9.625rem;
   }
   .header-page-image {
-    background-position: right 0.125rem bottom;
+    background-position: right -3.875rem bottom;
+  }
+  .microscope-lab-img {
+    top: 37px;
+    width: 38%;
+    height: 87%;
   }
 }
 
@@ -1816,6 +1827,23 @@ body {
     width: 100%;
     top: 0;
     left: 0;
+  }
+  .big-photo-logo {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .microscope-lab-img {
+    position: inherit;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .clients-list {
+    columns: auto;
+  }
+  .types-list {
+    columns: auto;
   }
 }
 
