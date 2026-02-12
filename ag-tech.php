@@ -11,7 +11,7 @@ $description = 'Прежде всего, начало повседневной �
 include_once('template-parts\header-page.php');?>
 <?php include_once('template-parts\about-image-text.php');?>
 <section class="section distributor">
-  <img src="img\book.png" alt="Книга" class="distributor-image">
+  
   <div class="container">
     <div class="distributor-wrapper">
       <div class="separator"></div>
@@ -45,6 +45,7 @@ include_once('template-parts\header-page.php');?>
       </svg>Скачать каталог</button>
     </div>
   </div>
+  <img src="img\book.png" alt="Книга" class="distributor-image">
 </section>
 <!-- /.section distributor -->
 <?php include_once('template-parts\research-block.php');?>

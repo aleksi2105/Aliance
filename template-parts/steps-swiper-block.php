@@ -15,7 +15,7 @@
                 Безусловно, сплочённость команды профессионалов позволяет
                 оценить значение форм воздействия.
               </p>
-              <a href="#" class="button-link">Оставить заявку</a>
+              <a href="#" class="button-link" data-toggle="modal" data-target="#feedback-modal">Оставить заявку</a>
             </li>
             <li class="swiper-slide steps-item">
               <span class="steps-num">02</span>
@@ -44,14 +44,14 @@
           <!-- If we need navigation buttons -->
           <div class="steps-buttons primary-buttons-wrapper">
             <div
-              class="slider-button-prev steps-button-prev primary-button-prev"
+              class="slider-button-prev  primary-button-prev steps-button-prev"
             >
               <svg class="arrows-steps" width="36" height="24">
                 <use xlink:href="./img/sprite.svg#arrow-prev"></use>
               </svg>
             </div>
             <div
-              class="slider-button-next steps-button-next primary-button-next"
+              class="slider-button-next  primary-button-next steps-button-next"
             >
               <svg class="arrows-steps" width="36" height="24">
                 <use xlink:href="./img/sprite.svg#arrow-next"></use>

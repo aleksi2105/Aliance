@@ -19,6 +19,10 @@
       <img src="./img/blog/blog-photo-machine.jpg" alt="researchs-card-image" class="researchs-card-image"></div>
     <div class="swiper-slide researchs-card">
       <img src="./img/blog/blog-photo-pipes.jpg" alt="researchs-card-image" class="researchs-card-image"></div>
+    <div class="swiper-slide researchs-card">
+      <img src="./img/blog/blog-photo-machine.jpg" alt="researchs-card-image" class="researchs-card-image"></div>
+    <div class="swiper-slide researchs-card">
+      <img src="./img/blog/blog-photo-pipes.jpg" alt="researchs-card-image" class="researchs-card-image"></div>
   </div>
   <div class="researchs-buttons primary-buttons-wrapper">
     <div class="researchs-button-prev primary-button-prev">

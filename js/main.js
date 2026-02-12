@@ -58,8 +58,11 @@ const swiperSteps = new Swiper(".steps-slider", {
     },
     // when window width is >= 1024px
     1024: {
-      slidesPerView: 4,
+      slidesPerView: 3,
     },
+    1200: {
+      slidesPerView: 3,
+    }
   }
 });
 
@@ -115,9 +118,10 @@ const swiperBlog = new Swiper(".blog-slider", {
 
 const swiperResearch = new Swiper(".researchs-slider", {
   speed: 400,
-  slidesPerView: 2,
+  slidesPerView: 2.5,
   spaceBetween: 30,
-  centeredSlidesBounds: true,
+  centeredSlides: true,
+
   navigation: {
     nextEl: '.researchs-button-next',
     prevEl: '.researchs-button-prev',

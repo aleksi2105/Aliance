@@ -248,7 +248,7 @@ body {
 }
 
 .header-features-item {
-  padding: 1.75rem 3.125rem;
+  padding: 1.4rem 3.125rem;
   height: auto;
   width: 18rem;
   border: 1px solid #ebebf0;
@@ -312,13 +312,17 @@ body {
 
 .section-title {
   margin-top: 1.5625rem;
+  margin-bottom: 1.5rem;
   font-family: "Bebas Neue";
   color: #292d33;
   font-size: 3.75rem;
   font-weight: 400;
   line-height: 120%;
 }
-
+.steps-slider {
+  margin-left: -27px;
+  margin-top: 31px;
+}
 .steps {
   min-width: 88.125rem;
   display: flex;
@@ -330,7 +334,7 @@ body {
 
 .steps-item {
   max-width: 20.625rem;
-  padding: 0 2.0625rem 0 0;
+  padding: 0;
 }
 
 .steps-num {
@@ -525,10 +529,11 @@ body {
   font-size: 1rem;
   line-height: 160%;
 }
-
+.clients {
+  margin-top: -1.75rem;
+}
 .clients-wrapper {
   display: flex;
-  gap: 3.125rem;
 }
 
 .clients-content {
@@ -548,7 +553,7 @@ body {
   font-size: 1rem;
   line-height: 160%;
   color: #292d33;
-  padding: 0.625rem;
+  padding-top: 1rem;
 }
 .clients-logo-list {
   display: flex;
@@ -561,7 +566,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 3rem 1rem 3rem 1rem;
 }
 .clients-logo {
   max-width: 100%;
@@ -1015,7 +1020,7 @@ body {
   background-color: #f0f2f5;
   background-image: url(../img/avto-him-header.png);
   background-repeat: no-repeat;
-  background-position: right 12.125rem bottom;
+  background-position: right 15.125rem bottom;
 }
 .header-page-background {
   background-image: url("../img/blog-background.png");
@@ -1043,7 +1048,7 @@ body {
   gap: 7.5rem;
 }
 .big-photo-logo {
-  max-width: 30rem;
+  /* max-width: 30rem; */
 }
 .about-description {
   margin-top: 2.7rem;
@@ -1096,7 +1101,7 @@ body {
   color: #828a99;
 }
 .researchs-slider {
-  margin-top: 3.125rem;
+  margin-top: 5rem;
 }
 
 .researchs-card {
@@ -1116,7 +1121,7 @@ body {
 }
 .researchs-buttons {
   margin-top: 1.875rem;
-  margin-right: 18rem;
+  margin-right: 15rem;
 }
 .seo {
   margin-top: 6.25rem;
@@ -1180,6 +1185,9 @@ body {
   color: #292d33;
   padding: 0.625rem;
 }
+.section-about {
+  margin-bottom: 0;
+}
 .distributor {
   min-height: 42.25rem;
   background-color: #f0f2f5;
@@ -1197,6 +1205,7 @@ body {
 }
 .distributor-wrapper {
   max-width: 45rem;
+  padding-top: 9px;
 }
 .download-button {
   margin-top: 3.125rem;
@@ -1514,6 +1523,22 @@ body {
     flex-direction: column;
     gap: 1.875rem;
   }
+  .big-photo-logo {
+    max-width: 26rem;
+    max-height: 35rem;
+  }
+  .distributor-image {
+    height: auto;
+    right: -5.625rem;
+    bottom: 0;
+    top: 14rem;
+  }
+  .primary-buttons-wrapper {
+    display: flex;
+    height: 40px;
+    width: 120px;
+    margin-left: auto;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -1711,6 +1736,15 @@ body {
   .blog-card {
     margin-bottom: 0.625rem;
   }
+  .big-photo-logo {
+    display: none;
+  }
+  .distributor-image {
+    right: -9.625rem;
+  }
+  .header-page-image {
+    background-position: right 0.125rem bottom;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1769,6 +1803,19 @@ body {
   }
   .blog-pagination {
     justify-content: center;
+  }
+  .header-page-image {
+    background-image: none;
+  }
+  .distributor {
+    display: flex;
+    flex-direction: column;
+  }
+  .distributor-image {
+    position: inherit;
+    width: 100%;
+    top: 0;
+    left: 0;
   }
 }
 
@@ -1932,5 +1979,13 @@ body {
   }
   .blog-wrapper .blog-card {
     margin-bottom: 0.625rem;
+  }
+  .about-wrapper {
+    gap: 0;
+  }
+  .big-photo-logo {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
   }
 }
