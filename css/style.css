@@ -509,7 +509,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  width: 40%;
+  width: 44%;
   height: 100%;
   object-fit: cover;
 }
@@ -1062,7 +1062,7 @@ body {
   margin-bottom: 1.25rem;
 }
 .our-production {
-  margin-top: 6rem;
+  margin-top: 9rem;
 }
 .production-wrapper {
   display: flex;
@@ -1755,6 +1755,14 @@ body {
     top: 37px;
     width: 38%;
     height: 87%;
+  }
+  .founder-photo {
+    position: relative;
+    width: 100%;
+    margin-bottom: 3.125rem;
+  }
+  .founder-content {
+    width: 100%;
   }
 }
 
