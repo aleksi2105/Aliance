@@ -8,125 +8,126 @@ include_once('template-parts\header-page.php');?>
   <div class="container blog">
     <div class="blog-wrapper">
       <a href="blog-more.php" class="swiper-slide blog-card">
-      <img
+        <img
         src="./img/blog/blog-photo-machine.jpg"
         alt="blog-photo"
         class="blog-card-image"           
         />
-      <h3 class="blog-card-title">
-      Современная методология разработки одухотворила всех причастных</h3>
-      <p class="blog-card-text">
-      Действия представителей оппозиции, превозмогая сложившуюся
-      непростую экономическую ситуацию, в равной степени предоставлены...</p>
-    </a>
-    <a href="#" class="swiper-slide blog-card">
-      <img
+        <h3 class="blog-card-title">
+        Современная методология разработки одухотворила всех причастных</h3>
+        <p class="blog-card-text">
+        Действия представителей оппозиции, превозмогая сложившуюся
+        непростую экономическую ситуацию, в равной степени предоставлены...</p>
+      </a>
+      <a href="#" class="swiper-slide blog-card">
+        <img
         src="./img/blog/blog-photo-pipes.jpg"
         alt="blog-photo"
         class="blog-card-image"
-      />
-      <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
-      <p class="blog-card-text">
+        />
+        <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
+        <p class="blog-card-text">
         Сложно сказать, почему элементы политического процесса
         функционально разнесены на независимые элементы. Безусловно,
         высокотехнологичная...</p>
-    </a>
-    <a href="blog-more.php" class="swiper-slide blog-card">
-      <img
+      </a>
+      <a href="#" class="swiper-slide blog-card">
+        <img
+        src="./img/blog/blog-photo-pipes.jpg"
+        alt="blog-photo"
+        class="blog-card-image"
+        />
+        <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
+        <p class="blog-card-text">
+        Сложно сказать, почему элементы политического процесса
+        функционально разнесены на независимые элементы. Безусловно,
+        высокотехнологичная...</p>
+      </a>
+      <a href="blog-more.php" class="swiper-slide blog-card">
+        <img
         src="./img/blog/blog-photo-machine.jpg"
         alt="blog-photo"
         class="blog-card-image"           
         />
-      <h3 class="blog-card-title">
-      Современная методология разработки одухотворила всех причастных</h3>
-      <p class="blog-card-text">
-      Действия представителей оппозиции, превозмогая сложившуюся
-      непростую экономическую ситуацию, в равной степени предоставлены...</p>
-    </a>
-    <a href="#" class="swiper-slide blog-card">
-      <img
-        src="./img/blog/blog-photo-pipes.jpg"
-        alt="blog-photo"
-        class="blog-card-image"
-      />
-      <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
-      <p class="blog-card-text">
-        Сложно сказать, почему элементы политического процесса
-        функционально разнесены на независимые элементы. Безусловно,
-        высокотехнологичная...</p>
-    </a>
-    <a href="blog-more.php" class="swiper-slide blog-card">
-      <img
+        <h3 class="blog-card-title">
+        Современная методология разработки одухотворила всех причастных</h3>
+        <p class="blog-card-text">
+        Действия представителей оппозиции, превозмогая сложившуюся
+        непростую экономическую ситуацию, в равной степени предоставлены...</p>
+      </a>
+      <a href="blog-more.php" class="swiper-slide blog-card">
+        <img
         src="./img/blog/blog-photo-machine.jpg"
         alt="blog-photo"
         class="blog-card-image"           
         />
-      <h3 class="blog-card-title">
-      Современная методология разработки одухотворила всех причастных</h3>
-      <p class="blog-card-text">
-      Действия представителей оппозиции, превозмогая сложившуюся
-      непростую экономическую ситуацию, в равной степени предоставлены...</p>
-    </a>
-    <a href="#" class="swiper-slide blog-card">
-      <img
+        <h3 class="blog-card-title">
+        Современная методология разработки одухотворила всех причастных</h3>
+        <p class="blog-card-text">
+        Действия представителей оппозиции, превозмогая сложившуюся
+        непростую экономическую ситуацию, в равной степени предоставлены...</p>
+      </a>
+      <a href="#" class="swiper-slide blog-card">
+        <img
         src="./img/blog/blog-photo-pipes.jpg"
         alt="blog-photo"
         class="blog-card-image"
-      />
-      <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
-      <p class="blog-card-text">
+        />
+        <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
+        <p class="blog-card-text">
         Сложно сказать, почему элементы политического процесса
         функционально разнесены на независимые элементы. Безусловно,
         высокотехнологичная...</p>
-    </a>
-    <a href="blog-more.php" class="swiper-slide blog-card">
-      <img
+      </a>
+      <a href="#" class="swiper-slide blog-card">
+        <img
+        src="./img/blog/blog-photo-pipes.jpg"
+        alt="blog-photo"
+        class="blog-card-image"
+        />
+        <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
+        <p class="blog-card-text">
+        Сложно сказать, почему элементы политического процесса
+        функционально разнесены на независимые элементы. Безусловно,
+        высокотехнологичная...</p>
+      </a>
+      <a href="blog-more.php" class="swiper-slide blog-card">
+        <img
         src="./img/blog/blog-photo-machine.jpg"
         alt="blog-photo"
         class="blog-card-image"           
         />
-      <h3 class="blog-card-title">
-      Современная методология разработки одухотворила всех причастных</h3>
-      <p class="blog-card-text">
-      Действия представителей оппозиции, превозмогая сложившуюся
-      непростую экономическую ситуацию, в равной степени предоставлены...</p>
-    </a>
-    <a href="#" class="swiper-slide blog-card">
-      <img
-        src="./img/blog/blog-photo-pipes.jpg"
-        alt="blog-photo"
-        class="blog-card-image"
-      />
-      <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
-      <p class="blog-card-text">
-        Сложно сказать, почему элементы политического процесса
-        функционально разнесены на независимые элементы. Безусловно,
-        высокотехнологичная...</p>
-    </a>
-    <a href="blog-more.php" class="swiper-slide blog-card">
-      <img
+        <h3 class="blog-card-title">
+        Современная методология разработки одухотворила всех причастных</h3>
+        <p class="blog-card-text">
+        Действия представителей оппозиции, превозмогая сложившуюся
+        непростую экономическую ситуацию, в равной степени предоставлены...</p>
+      </a>
+      <a href="blog-more.php" class="swiper-slide blog-card">
+        <img
         src="./img/blog/blog-photo-machine.jpg"
         alt="blog-photo"
         class="blog-card-image"           
         />
-      <h3 class="blog-card-title">
-      Современная методология разработки одухотворила всех причастных</h3>
-      <p class="blog-card-text">
-      Действия представителей оппозиции, превозмогая сложившуюся
-      непростую экономическую ситуацию, в равной степени предоставлены...</p>
-    </a>
-    <a href="#" class="swiper-slide blog-card">
-      <img
+        <h3 class="blog-card-title">
+        Современная методология разработки одухотворила всех причастных</h3>
+        <p class="blog-card-text">
+        Действия представителей оппозиции, превозмогая сложившуюся
+        непростую экономическую ситуацию, в равной степени предоставлены...</p>
+      </a>
+      <a href="#" class="swiper-slide blog-card">
+        <img
         src="./img/blog/blog-photo-pipes.jpg"
         alt="blog-photo"
         class="blog-card-image"
-      />
-      <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
-      <p class="blog-card-text">
+        />
+        <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
+        <p class="blog-card-text">
         Сложно сказать, почему элементы политического процесса
         функционально разнесены на независимые элементы. Безусловно,
         высокотехнологичная...</p>
-    </a>
+      </a>
+      
     </div>
     <div class="blog-pagination">
       <button class="blog-pagination-item blog-pagination-item-active">1</button>
