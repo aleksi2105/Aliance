@@ -3,7 +3,7 @@ $page_title = 'Контакты';
 $header_style = 'header-bg-grey';
 $showTitle = true;
 $showCta = true;
-include_once('template-parts\header-page.php');?>
+include_once('./template-parts/header-page.php');?>
 <section class="section contacts">
   <div class="container">
     <div class="footer-top contacts-top">
@@ -37,8 +37,8 @@ include_once('template-parts\header-page.php');?>
       </a>
       </div>
     </div>
-    <img src="img\map.png" alt="Карта" class="contacts-map">
+    <img src="./img/map.png" alt="Карта" class="contacts-map">
   </div>
 </section>
 <!-- /.section contacts -->
-<?php include_once('template-parts\footer.php');?>
+<?php include_once('./template-parts/footer.php');?>

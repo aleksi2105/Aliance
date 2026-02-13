@@ -1,5 +1,5 @@
 <?php
-$mainImage = $mainImage ?? 'img\big-photo-logo.png';
+$mainImage = $mainImage ?? './img/big-photo-logo.png';
 $mainAlt = $mainAlt ?? 'Aliance Production';
 $aboutTitle = $aboutTitle ?? 'мы - эксперты в области <br> производства химии';
 $description = $description ?? 'Разнообразный и богатый опыт говорит нам, что перспективное планирование однозначно фиксирует необходимость поставленных обществом задач! Есть над чем задуматься: ключевые особенности структуры проекта могут быть объединены в целые кластеры себе подобных. Интерактивные прототипы, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут описаны максимально подробно. Значимость этих проблем настолько очевидна, что перспективное планирование играет важную роль в формировании системы массового участия.'; ?>
@@ -15,6 +15,6 @@ $description = $description ?? 'Разнообразный и богатый о�
         <p class="about-text"><?= $description ?></p>
       </div>
     </div>
-    <?php include_once('template-parts\swiper-features.php');?>
+    <?php include_once('./template-parts/swiper-features.php');?>
   </div>
 </section>

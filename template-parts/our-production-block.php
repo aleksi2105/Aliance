@@ -46,6 +46,6 @@
          </ul>
       </div>
     </div>
-    <img src="img\laboratory.png" alt="laboratory assistant" class="production-lab-img">
+    <img src="./img/laboratory.png" alt="laboratory assistant" class="production-lab-img">
   </div>
  </section>

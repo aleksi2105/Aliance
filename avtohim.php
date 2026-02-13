@@ -3,13 +3,13 @@ $page_title = 'Автомобильная химия';
 $header_style = 'header-page-image';
 $showTitle = true;
 $showCta = true;
-$mainImage = 'img\lab-tech.jpg';
+$mainImage = './img/lab-tech.jpg';
 $mainAlt = 'Лабораторное оборудование';
 $aboutTitle = 'Контрактное производство <br> автомобильной химии';
 $description = 'Прежде всего, начало повседневной работы по формированию позиции однозначно фиксирует необходимость приоритизации разума над эмоциями. Кстати, представители современных социальных резервов неоднозначны и будут описаны максимально подробно. <br> <br>
 Но социально-экономическое развитие напрямую зависит от поставленных обществом задач! Безусловно, постоянный количественный рост и сфера нашей активности предоставляет широкие возможности для системы обучения кадров, соответствующей насущным потребностям. В целом, конечно, выбранный нами инновационный путь обеспечивает широкому кругу (специалистов) участие в формировании своевременного выполнения сверхзадачи. А ещё элементы политического процесса представлены в исключительно положительном свете. Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высокотехнологичная концепция общественного уклада создаёт предпосылки для глубокомысленных рассуждений. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для поставленных обществом задач.';
-include_once('template-parts\header-page.php');?>
-<?php include_once('template-parts\about-image-text.php')?>
+include_once('./template-parts/header-page.php');?>
+<?php include_once('./template-parts/about-image-text.php')?>
 <!-- /.section section-about -->
  <section class="section our-production founder">
   <div class="container production-wrapper">
@@ -72,7 +72,7 @@ include_once('template-parts\header-page.php');?>
     </div>
     
   </div>
-  <img src="img\microscope.png" alt="microscope" class="microscope-lab-img">
+  <img src="./img/microscope.png" alt="microscope" class="microscope-lab-img">
  </section>
  <section class="section chemycal-types">
   <div class="container">
@@ -176,10 +176,10 @@ include_once('template-parts\header-page.php');?>
 
  </section>
  <!-- /.section chemycal-types -->
-<?php include_once('template-parts\research-block.php');?>
+<?php include_once('./template-parts/research-block.php');?>
 <!-- /.section-research -->
- <?php include_once('template-parts\steps-swiper-block.php');?>
+ <?php include_once('./template-parts/steps-swiper-block.php');?>
  <!-- section-steps -->
-<?php include_once('template-parts\clients-block.php');?>
+<?php include_once('./template-parts/clients-block.php');?>
 <!-- /.section-clients -->
-<?php include_once('template-parts\footer.php');?>
+<?php include_once('./template-parts/footer.php');?>

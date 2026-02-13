@@ -27,7 +27,7 @@
               дальнейших направлений развития.
             </p>
             <?php if (!empty($block_title)) {
-             echo '<a href="about.php" class="button-link">'. $block_title . '</a>';
+             echo '<a href="./about.php" class="button-link">'. $block_title . '</a>';
              } 
              ?>            
           </div>

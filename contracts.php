@@ -3,8 +3,8 @@ $page_title = 'Контрактное производство';
 $header_style = 'header-bg-grey';
 $showTitle = true;
 $showCta = true;
-include_once('template-parts\header-page.php');
-include_once('template-parts\contracts-production-block.php');?>
+include_once('./template-parts/header-page.php');
+include_once('./template-parts/contracts-production-block.php');?>
 <section class="section seo">
   <div class="container">
     <h3 class="seo-title">SEO Заголовок</h3>
@@ -18,4 +18,4 @@ include_once('template-parts\contracts-production-block.php');?>
   </div>
   
 </section>
-<?php include_once('template-parts\footer.php');?>
+<?php include_once('./template-parts/footer.php');?>

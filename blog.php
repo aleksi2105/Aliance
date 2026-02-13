@@ -3,11 +3,11 @@ $page_title = 'Блог';
 $header_style = 'header-bg-grey';
 $showTitle = true;
 $showCta = true;
-include_once('template-parts\header-page.php');?>
+include_once('./template-parts/header-page.php');?>
 <section class="section">
   <div class="container blog">
     <div class="blog-wrapper">
-      <a href="blog-more.php" class="swiper-slide blog-card">
+      <a href="./blog-more.php" class="swiper-slide blog-card">
         <img
         src="./img/blog/blog-photo-machine.jpg"
         alt="blog-photo"
@@ -43,7 +43,7 @@ include_once('template-parts\header-page.php');?>
         функционально разнесены на независимые элементы. Безусловно,
         высокотехнологичная...</p>
       </a>
-      <a href="blog-more.php" class="swiper-slide blog-card">
+      <a href="./blog-more.php" class="swiper-slide blog-card">
         <img
         src="./img/blog/blog-photo-machine.jpg"
         alt="blog-photo"
@@ -55,7 +55,7 @@ include_once('template-parts\header-page.php');?>
         Действия представителей оппозиции, превозмогая сложившуюся
         непростую экономическую ситуацию, в равной степени предоставлены...</p>
       </a>
-      <a href="blog-more.php" class="swiper-slide blog-card">
+      <a href="./blog-more.php" class="swiper-slide blog-card">
         <img
         src="./img/blog/blog-photo-machine.jpg"
         alt="blog-photo"
@@ -91,7 +91,7 @@ include_once('template-parts\header-page.php');?>
         функционально разнесены на независимые элементы. Безусловно,
         высокотехнологичная...</p>
       </a>
-      <a href="blog-more.php" class="swiper-slide blog-card">
+      <a href="./blog-more.php" class="swiper-slide blog-card">
         <img
         src="./img/blog/blog-photo-machine.jpg"
         alt="blog-photo"
@@ -103,7 +103,7 @@ include_once('template-parts\header-page.php');?>
         Действия представителей оппозиции, превозмогая сложившуюся
         непростую экономическую ситуацию, в равной степени предоставлены...</p>
       </a>
-      <a href="blog-more.php" class="swiper-slide blog-card">
+      <a href="./blog-more.php" class="swiper-slide blog-card">
         <img
         src="./img/blog/blog-photo-machine.jpg"
         alt="blog-photo"
@@ -139,4 +139,4 @@ include_once('template-parts\header-page.php');?>
   </div>
 </section>
 <!-- /.section blog -->
-<?php include_once('template-parts\footer.php');?>
+<?php include_once('./template-parts/footer.php');?>

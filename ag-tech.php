@@ -3,13 +3,13 @@ $page_title = 'Автохимия <b>AG-Tech</b> ';
 $header_style = 'header-page-image';
 $showTitle = true;
 $showCta = true;
-$mainImage = 'img\work.png';
+$mainImage = 'img/work.png';
 $mainAlt = 'Работа с химией';
 $aboutTitle = 'Собственное производство <br> автохимия AG-Tech';
 $description = 'Прежде всего, начало повседневной работы по формированию позиции однозначно фиксирует необходимость приоритизации разума над эмоциями. Кстати, представители современных социальных резервов неоднозначны и будут описаны максимально подробно. <br><br>
 Но социально-экономическое развитие напрямую зависит от поставленных обществом задач! Безусловно, постоянный количественный рост и сфера нашей активности предоставляет широкие возможности для системы обучения кадров, соответствующей насущным потребностям. В целом, конечно, выбранный нами инновационный путь обеспечивает широкому кругу (специалистов) участие в формировании своевременного выполнения сверхзадачи. А ещё элементы политического процесса представлены в исключительно положительном свете. Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высокотехнологичная концепция общественного уклада создаёт предпосылки для глубокомысленных рассуждений. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для поставленных обществом задач.';
-include_once('template-parts\header-page.php');?>
-<?php include_once('template-parts\about-image-text.php');?>
+include_once('./template-parts/header-page.php');?>
+<?php include_once('./template-parts/about-image-text.php');?>
 <section class="section distributor">
   
   <div class="container">
@@ -45,13 +45,13 @@ include_once('template-parts\header-page.php');?>
       </svg>Скачать каталог</button>
     </div>
   </div>
-  <img src="img\book.png" alt="Книга" class="distributor-image">
+  <img src="./img/book.png" alt="Книга" class="distributor-image">
 </section>
 <!-- /.section distributor -->
-<?php include_once('template-parts\research-block.php');?>
+<?php include_once('./template-parts/research-block.php');?>
 <!-- /.section-research -->
-<?php include_once('template-parts\steps-swiper-block.php');?>
+<?php include_once('./template-parts/steps-swiper-block.php');?>
  <!-- section-steps -->
-<?php include_once('template-parts\clients-block.php');?>
+<?php include_once('./template-parts/clients-block.php');?>
 <!-- /.section-clients -->
-<?php include_once('template-parts\footer.php');?>
+<?php include_once('./template-parts/footer.php');?>

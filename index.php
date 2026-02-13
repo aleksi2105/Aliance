@@ -18,13 +18,13 @@
     <div class="mobile-menu">
       <ul class="mobile-menu-nav">
         <li class="mobile-menu-nav-item">
-          <a href="about.php" class="mobile-menu-link">О компании</a>
+          <a href="./about.php" class="mobile-menu-link">О компании</a>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="contracts.php" class="mobile-menu-link">Контрактное производство</a>
+          <a href="./contracts.php" class="mobile-menu-link">Контрактное производство</a>
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Автомобильная химия</a>
+              <a class="mobile-submenu-link" href="./avtohim.php">Автомобильная химия</a>
             </li>
             <li class="mobile-submenu-item">
               <a class="mobile-submenu-link" href="#">Бытовая химия</a>
@@ -48,10 +48,10 @@
           </ul>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="#" class="mobile-menu-link">Собственные торговые марки</a>
+          <a href="./trademarks.php" class="mobile-menu-link">Собственные торговые марки</a>
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Автохимия AG-Tech</a>
+              <a class="mobile-submenu-link" href="./ag-tech.php">Автохимия AG-Tech</a>
             </li>
             <li class="mobile-submenu-item">
               <a class="mobile-submenu-link" href="#">Автохимия AP</a>
@@ -59,10 +59,10 @@
           </ul>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="#" class="mobile-menu-link">Новости</a>
+          <a href="./error.php" class="mobile-menu-link">Новости</a>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="contact.php" class="mobile-menu-link">Контакты</a>
+          <a href="./contact.php" class="mobile-menu-link">Контакты</a>
         </li>
       </ul>
       <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
@@ -111,16 +111,16 @@
       </a>
       <ul class="header-nav">
         <li class="header-nav-item">
-          <a href="/about.php" class="header-nav-link">О компании</a>
+          <a href="./about.php" class="header-nav-link">О компании</a>
         </li>
         <li class="header-nav-item">
-          <a href="/contracts.php" class="header-nav-link">Контрактное производство</a>
+          <a href="./contracts.php" class="header-nav-link">Контрактное производство</a>
         </li>
         <li class="header-nav-item">
-          <a href="/trademarks.php" class="header-nav-link">Собственные торговые марки</a>
+          <a href="./trademarks.php" class="header-nav-link">Собственные торговые марки</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Новости</a>
+          <a href="./error.php" class="header-nav-link">Новости</a>
         </li>
         <li class="header-nav-item">
           <a href="/contact.php" class="header-nav-link">Контакты</a>
@@ -139,7 +139,7 @@
         <svg class="button-icon" width="24" height="24">
           <use xlink:href="./img/sprite.svg#phone"></use>
         </svg>
-        <span class="button-text">Получить консультацию</span>
+        <span class="button-text" data-toggle="modal" data-target="#feedback-modal">Получить консультацию</span>
       </button>
     </nav>
     <!-- /.navbar -->
@@ -161,17 +161,17 @@
         <!-- /.header-content -->
 
         <!-- Slider main container -->
-        <?php include_once('template-parts\swiper-features.php');?>
+        <?php include_once('./template-parts/swiper-features.php');?>
       </div>
       <!-- /.container -->
     </header>
     <?php
     $showCta = true; 
-    include_once('template-parts\steps-swiper-block.php');?>
-    <?php $block_title = "Контрактное производство"; include_once('template-parts\contracts-production-block.php');?>
+    include_once('./template-parts/steps-swiper-block.php');?>
+    <?php $block_title = "Контрактное производство"; include_once('./template-parts/contracts-production-block.php');?>
     <?php $block_title = "Собственные торговые марки"; include_once('./template-parts/trademarks-block.php');?>
-    <?php $block_title = "Подробнее о компании"; include_once('template-parts\founder-block.php');?>
-    <?php include_once('template-parts\clients-block.php')?>
+    <?php $block_title = "Подробнее о компании"; include_once('./template-parts/founder-block.php');?>
+    <?php include_once('./template-parts/clients-block.php')?>
     <section class="section">
       <div class="container">
         <div class="separator"></div>
@@ -180,7 +180,7 @@
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
-            <a href="blog-more.php" class="swiper-slide blog-card"
+            <a href="./blog-more.php" class="swiper-slide blog-card"
               ><img
                 src="./img/blog/blog-photo-machine.jpg"
                 alt="blog-photo"
@@ -195,7 +195,7 @@
                 предоставлены...
               </p>
             </a>
-            <a href="blog-more.php" class="swiper-slide blog-card"
+            <a href="./blog-more.php" class="swiper-slide blog-card"
               ><img
                 src="./img/blog/blog-photo-pipes.jpg"
                 alt="blog-photo"
@@ -222,7 +222,7 @@
           </div>
 
           <div class="blog-slider-footer">
-            <a href="blog.php" class="button-link">Весь блог</a>
+            <a href="./blog.php" class="button-link">Весь блог</a>
             <div class="blog-buttons primary-buttons-wrapper">
               <div class="blog-button-prev primary-button-prev">
                 <svg class="arrows-steps" width="36" height="24">
@@ -242,5 +242,5 @@
       </div>
     </section>
 
-    <?php include_once('template-parts\footer.php');?>
+    <?php include_once('./template-parts/footer.php');?>
    
