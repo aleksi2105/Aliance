@@ -122,6 +122,7 @@ const swiperResearch = new Swiper(".researchs-slider", {
   spaceBetween: 30,
   centeredSlides: true,
 
+
   navigation: {
     nextEl: '.researchs-button-next',
     prevEl: '.researchs-button-prev',

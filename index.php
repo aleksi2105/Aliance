@@ -139,7 +139,7 @@
         <svg class="button-icon" width="24" height="24">
           <use xlink:href="./img/sprite.svg#phone"></use>
         </svg>
-        <span class="button-text" data-toggle="modal" data-target="#feedback-modal">Получить консультацию</span>
+        <span class="button-text">Получить консультацию</span>
       </button>
     </nav>
     <!-- /.navbar -->

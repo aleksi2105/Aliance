@@ -10,6 +10,7 @@ html {
   font-family: "Bebas Neue";
   src: url("../fonts/BebasNeueRegular.woff") format("woff");
   font-weight: normal;
+  font-display: swap;
   font-style: normal;
 }
 
@@ -423,7 +424,6 @@ body {
   bottom: 0;
   right: 0;
   z-index: 0;
-  width: 90%;
 }
 
 .card-title {
@@ -1102,6 +1102,7 @@ body {
 }
 .researchs-slider {
   margin-top: 5rem;
+  overflow: hidden;
 }
 
 .researchs-card {
@@ -1109,16 +1110,24 @@ body {
   position: relative;
   min-height: 25rem;
   max-width: 44.0625rem;
+  height: 25rem;
 }
 .researchs-card-image {
-  position: absolute;
-  left: 0;
-  top: 0;
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+}
+.researchs-card-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: -2;
+  object-position: center;
+  display: block;
 }
+
 .researchs-buttons {
   margin-top: 1.875rem;
   margin-right: 15rem;

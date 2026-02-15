@@ -46,6 +46,10 @@
          </ul>
       </div>
     </div>
-    <img src="./img/laboratory.png" alt="laboratory assistant" class="production-lab-img">
+    <picture class="production-lab-img">
+        <source type="image/webp" srcset="./img/laboratory.webp">
+        <source type="image/jpeg" srcset="./img/laboratory.png">
+        <img src="./img/laboratory.png" alt="laboratory assistant">
+    </picture>
   </div>
  </section>
