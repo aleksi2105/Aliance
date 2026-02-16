@@ -17,7 +17,11 @@ include_once('./template-parts/header-page.php');?>
         <p class="article-second-text">Таким образом постоянный количественный рост и сфера нашей активности позволяет оценить значение дальнейших направлений развития. Разнообразный и богатый опыт реализация намеченных плановых заданий влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. С другой стороны консультация с широким активом позволяет оценить значение форм развития. Идейные соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке соответствующий условий активизации. Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании соответствующий условий активизации.</p>
         <p class="article-second-text">С другой стороны рамки и место обучения кадров влечет за собой процесс внедрения и модернизации систем массового участия. Равным образом консультация с широким активом в значительной степени обуславливает создание дальнейших направлений развития. Идейные соображения высшего порядка, а также консультация с широким активом требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных задач. Равным образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации дальнейших направлений развития.</p>
         <p class="article-second-text">Разнообразный и богатый опыт начало повседневной работы по формированию позиции позволяет оценить значение позиций, занимаемых участниками в отношении поставленных задач. Разнообразный и богатый опыт реализация намеченных плановых заданий позволяет выполнять важные задания по разработке форм развития. Задача организации, в особенности же постоянный <span class="color-text">количественный рост</span> и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании форм развития.</p>
-        <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория" class="article-image">
+        <picture class="article-image">
+          <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
+          <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
+          <img src="./img/blog/blog-photo-machine.jpg" alt="Laboratory">
+        </picture>
         <h4 class="article-third-title">Равным образом консультация с широким активом:</h4>
         <ul class="article-third-list">
           <li class="article-third-list-item">
@@ -85,12 +89,13 @@ include_once('./template-parts/header-page.php');?>
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
-            <a href="./blog-more.php" class="swiper-slide blog-card"
-              ><img
-                src="./img/blog/blog-photo-machine.jpg"
-                alt="blog-photo"
-                class="blog-card-image"
-              />
+            <a href="./blog-more.php" class="swiper-slide blog-card">
+              <picture class="blog-card-image">
+                  <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
+                  <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
+                  <img src="./img/blog/blog-photo-machine.jpg" alt="blog-photo">
+              </picture>
+              
               <h3 class="blog-card-title">
                 Современная методология разработки одухотворила всех причастных
               </h3>
@@ -100,12 +105,13 @@ include_once('./template-parts/header-page.php');?>
                 предоставлены...
               </p>
             </a>
-            <a href="#" class="swiper-slide blog-card"
-              ><img
-                src="./img/blog/blog-photo-pipes.jpg"
-                alt="blog-photo"
-                class="blog-card-image"
-              />
+            <a href="#" class="swiper-slide blog-card">
+              <picture class="blog-card-image">
+                  <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
+                  <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
+                  <img src="./img/blog/blog-photo-pipes.jpg" alt="blog-photo">
+              </picture>
+              
               <h3 class="blog-card-title">
                 Сложно сказать, почему жизнь прекрасна
               </h3>
@@ -115,12 +121,12 @@ include_once('./template-parts/header-page.php');?>
                 высокотехнологичная...
               </p>
             </a>
-            <a href="#" class="swiper-slide blog-card"
-              ><img
-                src="./img/blog/blog-photo-machine.jpg"
-                alt="blog-photo"
-                class="blog-card-image"
-              />
+            <a href="#" class="swiper-slide blog-card">
+              <picture class="blog-card-image">
+                  <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
+                  <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
+                  <img src="./img/blog/blog-photo-machine.jpg" alt="blog-photo">
+              </picture>
               <h3 class="blog-card-title"></h3>
               <p class="blog-card-text"></p>
             </a>

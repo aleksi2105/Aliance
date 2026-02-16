@@ -45,7 +45,12 @@ include_once('./template-parts/header-page.php');?>
       </svg>Скачать каталог</button>
     </div>
   </div>
-  <img src="./img/book.png" alt="Книга" class="distributor-image">
+  <picture class="distributor-image">
+        <source type="image/webp" srcset="./img/book.webp">
+        <source type="image/jpeg" srcset="./img/book.png">
+        <img src="./img/book.png" alt="Book">
+  </picture>
+  
 </section>
 <!-- /.section distributor -->
 <?php include_once('./template-parts/research-block.php');?>

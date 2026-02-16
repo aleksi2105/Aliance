@@ -26,13 +26,33 @@
       </picture>
     </div>
     <div class="swiper-slide researchs-card">
-      <img src="./img/blog/blog-photo-machine.jpg" alt="researchs-card-image" class="researchs-card-image"></div>
+     <picture class="researchs-card-image">
+        <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
+        <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
+        <img src="./img/blog/blog-photo-machine.jpg" alt="researchs-card-image">
+      </picture>
+    </div>
     <div class="swiper-slide researchs-card">
-      <img src="./img/blog/blog-photo-pipes.jpg" alt="researchs-card-image" class="researchs-card-image"></div>
+      <picture class="researchs-card-image">
+        <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
+        <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
+        <img src="./img/blog/blog-photo-pipes.jpg" alt="researchs-card-image">
+      </picture>
+    </div>
     <div class="swiper-slide researchs-card">
-      <img src="./img/blog/blog-photo-machine.jpg" alt="researchs-card-image" class="researchs-card-image"></div>
+      <picture class="researchs-card-image">
+        <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
+        <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
+        <img src="./img/blog/blog-photo-machine.jpg" alt="researchs-card-image">
+      </picture>
+    </div>
     <div class="swiper-slide researchs-card">
-      <img src="./img/blog/blog-photo-pipes.jpg" alt="researchs-card-image" class="researchs-card-image"></div>
+      <picture class="researchs-card-image">
+        <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
+        <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
+        <img src="./img/blog/blog-photo-pipes.jpg" alt="researchs-card-image">
+      </picture>
+    </div>
   </div>
   <div class="researchs-buttons primary-buttons-wrapper">
     <div class="researchs-button-prev primary-button-prev">
