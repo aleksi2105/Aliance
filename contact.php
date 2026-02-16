@@ -37,6 +37,11 @@ include_once('./template-parts/header-page.php');?>
       </a>
       </div>
     </div>
+    <picture class="contacts-map">
+        <source type="image/webp" srcset="./img/map.webp">
+        <source type="image/jpeg" srcset="./img/map.png">
+        <img src="./img/map.png" alt="Карта">
+    </picture>
     <img src="./img/map.png" alt="Карта" class="contacts-map">
   </div>
 </section>

@@ -180,12 +180,12 @@
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
-            <a href="./blog-more.php" class="swiper-slide blog-card"
-              ><img
-                src="./img/blog/blog-photo-machine.jpg"
-                alt="blog-photo"
-                class="blog-card-image"
-              />
+            <a href="./blog-more.php" class="swiper-slide blog-card">
+              <picture class="blog-card-image">
+                  <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
+                  <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
+                  <img src="./img/blog/blog-photo-machine.jpg" alt="blog-photo">
+              </picture>
               <h3 class="blog-card-title">
                 Современная методология разработки одухотворила всех причастных
               </h3>
@@ -196,11 +196,11 @@
               </p>
             </a>
             <a href="./blog-more.php" class="swiper-slide blog-card"
-              ><img
-                src="./img/blog/blog-photo-pipes.jpg"
-                alt="blog-photo"
-                class="blog-card-image"
-              />
+              ><picture class="blog-card-image">
+                  <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
+                  <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
+                  <img src="./img/blog/blog-photo-pipes.jpg" alt="blog-photo">
+              </picture>
               <h3 class="blog-card-title">
                 Сложно сказать, почему жизнь прекрасна
               </h3>
@@ -211,11 +211,11 @@
               </p>
             </a>
             <a href="#" class="swiper-slide blog-card"
-              ><img
-                src="./img/blog/blog-photo-machine.jpg"
-                alt="blog-photo"
-                class="blog-card-image"
-              />
+              ><picture class="blog-card-image">
+                  <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
+                  <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
+                  <img src="./img/blog/blog-photo-machine.jpg" alt="blog-photo">
+              </picture>
               <h3 class="blog-card-title"></h3>
               <p class="blog-card-text"></p>
             </a>

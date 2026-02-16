@@ -78,7 +78,7 @@ body {
 }
 
 .header-image {
-  background-image: url("../img/header-bg.png");
+  background-image: url("../img/header-bg.webp"), url("../img/header-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
