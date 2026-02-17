@@ -1,3 +1,7 @@
+@import url("normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("swiper-bundle.min.css");
+
 * {
   box-sizing: border-box;
 }
@@ -77,8 +81,11 @@ body {
   padding-top: 5.875rem;
 }
 
+.no-webp .header-image {
+  background-image: url("../img/header-bg.png");
+}
 .header-image {
-  background-image: url("../img/header-bg.webp"), url("../img/header-bg.png");
+  background-image: url("../img/header-bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
