@@ -985,8 +985,7 @@ body {
   justify-content: space-between;
   gap: 7.5rem;
 }
-.big-photo-logo {
-}
+
 .about-description {
   margin-top: 2.7rem;
 }
@@ -1791,8 +1790,7 @@ body {
   .container {
     max-width: 90%;
   }
-  .section {
-  }
+
   .section-title {
     font-size: 36px;
   }
