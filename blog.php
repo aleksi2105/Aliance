@@ -8,10 +8,10 @@ include_once('./template-parts/header-page.php');?>
   <div class="container blog">
     <div class="blog-wrapper">
       <a href="./blog-more.php" class="swiper-slide blog-card" aria-label="Открыть статью">
-        <picture class="blog-card-image">
+        <picture >
             <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
-            <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория">
+            <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория" class="blog-card-image">
         </picture>
         
         <h3 class="blog-card-title">
@@ -21,10 +21,10 @@ include_once('./template-parts/header-page.php');?>
         непростую экономическую ситуацию, в равной степени предоставлены...</p>
       </a>
       <a href="#" class="swiper-slide blog-card" aria-label="Открыть статью">
-        <picture class="blog-card-image">
+        <picture >
             <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
-            <img src="./img/blog/blog-photo-pipes.jpg" alt="Завод">
+            <img src="./img/blog/blog-photo-pipes.jpg" alt="Завод" class="blog-card-image">
         </picture>
        
         <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
@@ -34,10 +34,10 @@ include_once('./template-parts/header-page.php');?>
         высокотехнологичная...</p>
       </a>
       <a href="#" class="swiper-slide blog-card" aria-label="Открыть статью">
-        <picture class="blog-card-image">
+        <picture >
             <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
-            <img src="./img/blog/blog-photo-pipes.jpg" alt="Лаборатория">
+            <img src="./img/blog/blog-photo-pipes.jpg" alt="Лаборатория" class="blog-card-image">
         </picture>
         <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
         <p class="blog-card-text">
@@ -46,10 +46,10 @@ include_once('./template-parts/header-page.php');?>
         высокотехнологичная...</p>
       </a>
       <a href="./blog-more.php" class="swiper-slide blog-card" aria-label="Открыть статью">
-        <picture class="blog-card-image">
+        <picture >
             <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
-            <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория">
+            <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория" class="blog-card-image">
         </picture>
         <h3 class="blog-card-title">
         Современная методология разработки одухотворила всех причастных</h3>
@@ -58,10 +58,10 @@ include_once('./template-parts/header-page.php');?>
         непростую экономическую ситуацию, в равной степени предоставлены...</p>
       </a>
       <a href="./blog-more.php" class="swiper-slide blog-card" aria-label="Открыть статью">
-        <picture class="blog-card-image">
+        <picture >
             <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
-            <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория">
+            <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория" class="blog-card-image">
         </picture>
         <h3 class="blog-card-title">
         Современная методология разработки одухотворила всех причастных</h3>
@@ -70,10 +70,10 @@ include_once('./template-parts/header-page.php');?>
         непростую экономическую ситуацию, в равной степени предоставлены...</p>
       </a>
       <a href="#" class="swiper-slide blog-card" aria-label="Открыть статью">
-        <picture class="blog-card-image">
+        <picture >
             <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
-            <img src="./img/blog/blog-photo-pipes.jpg" alt="Завод">
+            <img src="./img/blog/blog-photo-pipes.jpg" alt="Завод" class="blog-card-image">
         </picture>
         <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
         <p class="blog-card-text">
@@ -82,10 +82,10 @@ include_once('./template-parts/header-page.php');?>
         высокотехнологичная...</p>
       </a>
       <a href="#" class="swiper-slide blog-card" aria-label="Открыть статью">
-        <picture class="blog-card-image">
+        <picture >
             <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
-            <img src="./img/blog/blog-photo-pipes.jpg" alt="Завод">
+            <img src="./img/blog/blog-photo-pipes.jpg" alt="Завод" class="blog-card-image">
         </picture>
         <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
         <p class="blog-card-text">
@@ -94,10 +94,10 @@ include_once('./template-parts/header-page.php');?>
         высокотехнологичная...</p>
       </a>
       <a href="./blog-more.php" class="swiper-slide blog-card" aria-label="Открыть статью">
-        <picture class="blog-card-image">
+        <picture >
             <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
-            <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория">
+            <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория" class="blog-card-image">
         </picture>
         <h3 class="blog-card-title">
         Современная методология разработки одухотворила всех причастных</h3>
@@ -106,10 +106,10 @@ include_once('./template-parts/header-page.php');?>
         непростую экономическую ситуацию, в равной степени предоставлены...</p>
       </a>
       <a href="./blog-more.php" class="swiper-slide blog-card" aria-label="Открыть статью">
-        <picture class="blog-card-image">
+        <picture >
             <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
-            <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория">
+            <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория" class="blog-card-image">
         </picture>
         <h3 class="blog-card-title">
         Современная методология разработки одухотворила всех причастных</h3>
@@ -118,10 +118,10 @@ include_once('./template-parts/header-page.php');?>
         непростую экономическую ситуацию, в равной степени предоставлены...</p>
       </a>
       <a href="#" class="swiper-slide blog-card" aria-label="Открыть статью">
-        <picture class="blog-card-image">
+        <picture >
             <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
-            <img src="./img/blog/blog-photo-pipes.jpg" alt="Завод">
+            <img src="./img/blog/blog-photo-pipes.jpg" alt="Завод" class="blog-card-image">
         </picture>
         <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
         <p class="blog-card-text">

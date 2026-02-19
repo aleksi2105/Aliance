@@ -1,8 +1,8 @@
  <section class="section founder">
-      <picture class="founder-photo">
+      <picture >
         <source type="image/webp" srcset="./img/Founder.webp">
         <source type="image/jpeg" srcset="./img/Founder.jpg">
-        <img src="./img/Founder.jpg" alt="Основатель">
+        <img src="./img/Founder.jpg" alt="Основатель" class="founder-photo">
       </picture>
       <div class="container">
         <div class="founder-content-wrapper">

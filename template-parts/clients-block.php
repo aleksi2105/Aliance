@@ -72,67 +72,67 @@
           <!-- /.clients-content -->
           <div class="clients-logo-list">
             <a href="#" class="clients-logo-item">
-              <picture class="clients-logo">
+              <picture >
                 <source type="image/webp" srcset="./img/client-logo-color.webp">
                 <source type="image/jpeg" srcset="./img/client-logo-color.png">
-                <img src="./img/client-logo-color.png" alt="Логотип клиента">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента" class="clients-logo">
               </picture>
               
             </a>
             <a href="#" class="clients-logo-item">
-              <picture class="clients-logo">
+              <picture >
                 <source type="image/webp" srcset="./img/client-logo-color.webp">
                 <source type="image/jpeg" srcset="./img/client-logo-color.png">
-                <img src="./img/client-logo-color.png" alt="Логотип клиента">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента" class="clients-logo">
               </picture>
             </a>
             <a href="#" class="clients-logo-item">
-              <picture class="clients-logo">
+              <picture >
                 <source type="image/webp" srcset="./img/client-logo-color.webp">
                 <source type="image/jpeg" srcset="./img/client-logo-color.png">
-                <img src="./img/client-logo-color.png" alt="Логотип клиента">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента" class="clients-logo">
               </picture>
             </a>
             <a href="#" class="clients-logo-item">
-              <picture class="clients-logo">
+              <picture >
                 <source type="image/webp" srcset="./img/client-logo-color.webp">
                 <source type="image/jpeg" srcset="./img/client-logo-color.png">
-                <img src="./img/client-logo-color.png" alt="Логотип клиента">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента" class="clients-logo">
               </picture>
             </a>
             <a href="#" class="clients-logo-item">
-              <picture class="clients-logo">
+              <picture >
                 <source type="image/webp" srcset="./img/client-logo-color.webp">
                 <source type="image/jpeg" srcset="./img/client-logo-color.png">
-                <img src="./img/client-logo-color.png" alt="Логотип клиента">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента" class="clients-logo">
               </picture>
             </a>
             <a href="#" class="clients-logo-item">
-              <picture class="clients-logo">
+              <picture >
                 <source type="image/webp" srcset="./img/client-logo-color.webp">
                 <source type="image/jpeg" srcset="./img/client-logo-color.png">
-                <img src="./img/client-logo-color.png" alt="Логотип клиента">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента" class="clients-logo">
               </picture>
             </a>
             <a href="#" class="clients-logo-item">
-              <picture class="clients-logo">
+              <picture >
                 <source type="image/webp" srcset="./img/client-logo-color.webp">
                 <source type="image/jpeg" srcset="./img/client-logo-color.png">
-                <img src="./img/client-logo-color.png" alt="Логотип клиента">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента" class="clients-logo">
               </picture>
             </a>
             <a href="#" class="clients-logo-item">
-              <picture class="clients-logo">
+              <picture >
                 <source type="image/webp" srcset="./img/client-logo-color.webp">
                 <source type="image/jpeg" srcset="./img/client-logo-color.png">
-                <img src="./img/client-logo-color.png" alt="Логотип клиента">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента" class="clients-logo">
               </picture>
             </a>
             <a href="#" class="clients-logo-item">
-              <picture class="clients-logo">
+              <picture >
                 <source type="image/webp" srcset="./img/client-logo-color.webp">
                 <source type="image/jpeg" srcset="./img/client-logo-color.png">
-                <img src="./img/client-logo-color.png" alt="Логотип клиента">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента" class="clients-logo">
               </picture>
             </a>
           </div>

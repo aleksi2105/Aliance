@@ -1,10 +1,10 @@
   <section class="cta">
     <?php if ($showCta): ?>
       <div class="bg-grey section-cta">
-        <picture class="cta-image">
+        <picture>
           <source type="image/webp" srcset="./img/cta.webp">
           <source type="image/jpeg" srcset="./img/cta.png">
-          <img src="./img/cta.png" alt="Спрей">
+          <img src="./img/cta.png" alt="Спрей" class="cta-image">
         </picture>
         
         <div class="cta-form-wrapper container">
@@ -239,10 +239,10 @@
     </div>
     <div class="modal" id="alert-modal">
       <div class="modal-dialog">
-        <picture class="alert-modal-img">
+        <picture >
           <source type="image/webp" srcset="./img/thanks_illu.webp">
           <source type="image/jpeg" srcset="./img/thanks_illu.png">
-          <img src="./img/thanks_illu.png" alt="Спасибо">
+          <img src="./img/thanks_illu.png" alt="Спасибо" class="alert-modal-img">
         </picture>
         <h2 class="modal-title">Спасибо за заявку!</h2>
         <a href="#" class="alert-modal-close" data-toggle="modal" data-target="#alert-modal" aria-label="Закрыть">

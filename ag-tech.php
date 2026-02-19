@@ -45,10 +45,10 @@ include_once('./template-parts/header-page.php');?>
       </svg>Скачать каталог</button>
     </div>
   </div>
-  <picture class="distributor-image">
+  <picture >
         <source type="image/webp" srcset="./img/book.webp">
         <source type="image/jpeg" srcset="./img/book.png">
-        <img src="./img/book.png" alt="Каталог">
+        <img src="./img/book.png" alt="Каталог" class="distributor-image">
   </picture>
   
 </section>

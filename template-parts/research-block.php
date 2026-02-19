@@ -12,45 +12,45 @@
   <div class="swiper-wrapper">
     <!-- Slides -->
     <div class="swiper-slide researchs-card">
-      <picture class="researchs-card-image">
+      <picture >
         <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
         <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
-        <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория">
+        <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория" class="researchs-card-image">
       </picture>
     </div>
     <div class="swiper-slide researchs-card">
-      <picture class="researchs-card-image">
+      <picture >
         <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
         <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
-        <img src="./img/blog/blog-photo-pipes.jpg" alt="Завод">
+        <img src="./img/blog/blog-photo-pipes.jpg" alt="Завод" class="researchs-card-image">
       </picture>
     </div>
     <div class="swiper-slide researchs-card">
-     <picture class="researchs-card-image">
+     <picture >
         <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
         <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
-        <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория">
+        <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория" class="researchs-card-image">
       </picture>
     </div>
     <div class="swiper-slide researchs-card">
-      <picture class="researchs-card-image">
+      <picture >
         <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
         <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
-        <img src="./img/blog/blog-photo-pipes.jpg" alt="Завод">
+        <img src="./img/blog/blog-photo-pipes.jpg" alt="Завод" class="researchs-card-image">
       </picture>
     </div>
     <div class="swiper-slide researchs-card">
-      <picture class="researchs-card-image">
+      <picture >
         <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
         <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
-        <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория">
+        <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория" class="researchs-card-image">
       </picture>
     </div>
     <div class="swiper-slide researchs-card">
-      <picture class="researchs-card-image">
+      <picture >
         <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
         <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
-        <img src="./img/blog/blog-photo-pipes.jpg" alt="Завод">
+        <img src="./img/blog/blog-photo-pipes.jpg" alt="Завод" class="researchs-card-image">
       </picture>
     </div>
   </div>

@@ -72,10 +72,10 @@ include_once('./template-parts/header-page.php');?>
     </div>
     
   </div>
-  <picture class="microscope-lab-img">
+  <picture >
         <source type="image/webp" srcset="./img/microscope.webp">
         <source type="image/jpeg" srcset="./img/microscope.png">
-        <img src="./img/microscope.png" alt="Микроскоп">
+        <img src="./img/microscope.png" alt="Микроскоп" class="microscope-lab-img">
   </picture>
  </section>
  <section class="section chemycal-types">
