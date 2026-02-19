@@ -9,7 +9,7 @@ html {
 }
 @font-face {
   font-family: "Bebas Neue";
-  src: url("../fonts/BebasNeueRegular.woff") format("woff");
+  src: url("../fonts/BebasNeueRegular.woff2") format("woff2");
   font-weight: normal;
   font-display: swap;
   font-style: normal;

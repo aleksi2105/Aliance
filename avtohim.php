@@ -75,7 +75,7 @@ include_once('./template-parts/header-page.php');?>
   <picture class="microscope-lab-img">
         <source type="image/webp" srcset="./img/microscope.webp">
         <source type="image/jpeg" srcset="./img/microscope.png">
-        <img src="./img/microscope.png" alt="microscope">
+        <img src="./img/microscope.png" alt="Микроскоп">
   </picture>
  </section>
  <section class="section chemycal-types">

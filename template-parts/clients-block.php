@@ -75,7 +75,7 @@
               <picture class="clients-logo">
                 <source type="image/webp" srcset="./img/client-logo-color.webp">
                 <source type="image/jpeg" srcset="./img/client-logo-color.png">
-                <img src="./img/client-logo-color.png" alt="client logo">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента">
               </picture>
               
             </a>
@@ -83,56 +83,56 @@
               <picture class="clients-logo">
                 <source type="image/webp" srcset="./img/client-logo-color.webp">
                 <source type="image/jpeg" srcset="./img/client-logo-color.png">
-                <img src="./img/client-logo-color.png" alt="client logo">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента">
               </picture>
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="clients-logo">
                 <source type="image/webp" srcset="./img/client-logo-color.webp">
                 <source type="image/jpeg" srcset="./img/client-logo-color.png">
-                <img src="./img/client-logo-color.png" alt="client logo">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента">
               </picture>
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="clients-logo">
                 <source type="image/webp" srcset="./img/client-logo-color.webp">
                 <source type="image/jpeg" srcset="./img/client-logo-color.png">
-                <img src="./img/client-logo-color.png" alt="client logo">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента">
               </picture>
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="clients-logo">
                 <source type="image/webp" srcset="./img/client-logo-color.webp">
                 <source type="image/jpeg" srcset="./img/client-logo-color.png">
-                <img src="./img/client-logo-color.png" alt="client logo">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента">
               </picture>
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="clients-logo">
                 <source type="image/webp" srcset="./img/client-logo-color.webp">
                 <source type="image/jpeg" srcset="./img/client-logo-color.png">
-                <img src="./img/client-logo-color.png" alt="client logo">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента">
               </picture>
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="clients-logo">
                 <source type="image/webp" srcset="./img/client-logo-color.webp">
                 <source type="image/jpeg" srcset="./img/client-logo-color.png">
-                <img src="./img/client-logo-color.png" alt="client logo">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента">
               </picture>
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="clients-logo">
                 <source type="image/webp" srcset="./img/client-logo-color.webp">
                 <source type="image/jpeg" srcset="./img/client-logo-color.png">
-                <img src="./img/client-logo-color.png" alt="client logo">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента">
               </picture>
             </a>
             <a href="#" class="clients-logo-item">
               <picture class="clients-logo">
                 <source type="image/webp" srcset="./img/client-logo-color.webp">
                 <source type="image/jpeg" srcset="./img/client-logo-color.png">
-                <img src="./img/client-logo-color.png" alt="client logo">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента">
               </picture>
             </a>
           </div>

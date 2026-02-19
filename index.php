@@ -15,54 +15,52 @@
     <div class="mobile-menu">
       <ul class="mobile-menu-nav">
         <li class="mobile-menu-nav-item">
-          <a href="./about.php" class="mobile-menu-link">О компании</a>
+          <a href="./about.php" class="mobile-menu-link" aria-label="Открыть страницу">О компании</a>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="./contracts.php" class="mobile-menu-link">Контрактное производство</a>
+          <a href="./contracts.php" class="mobile-menu-link" aria-label="Открыть страницу">Контрактное производство</a>
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="./avtohim.php">Автомобильная химия</a>
+              <a class="mobile-submenu-link" href="./avtohim.php" aria-label="Открыть страницу">Автомобильная химия</a>
             </li>
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Бытовая химия</a>
+              <a class="mobile-submenu-link" href="#" aria-label="Открыть страницу">Бытовая химия</a>
             </li>
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#"
-                >Дезинфицирующие средства</a
-              >
+              <a class="mobile-submenu-link" href="#" aria-label="Открыть страницу">Дезинфицирующие средства
+              </a>
             </li>
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Пищевые аэрозоли</a>
+              <a class="mobile-submenu-link" href="#" aria-label="Открыть страницу">Пищевые аэрозоли</a>
             </li>
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#"
-                >Косметическая продукция</a
-              >
+              <a class="mobile-submenu-link" href="#" aria-label="Открыть страницу">Косметическая продукция
+              </a>
             </li>
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Краски аэрозольные</a>
+              <a class="mobile-submenu-link" href="#" aria-label="Открыть страницу">Краски аэрозольные</a>
             </li>
           </ul>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="./trademarks.php" class="mobile-menu-link">Собственные торговые марки</a>
+          <a href="./trademarks.php" class="mobile-menu-link" aria-label="Открыть страницу">Собственные торговые марки</a>
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="./ag-tech.php">Автохимия AG-Tech</a>
+              <a class="mobile-submenu-link" href="./ag-tech.php" aria-label="Открыть страницу">Автохимия AG-Tech</a>
             </li>
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Автохимия AP</a>
+              <a class="mobile-submenu-link" href="#" aria-label="Открыть страницу">Автохимия AP</a>
             </li>
           </ul>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="./error.php" class="mobile-menu-link">Новости</a>
+          <a href="./error.php" class="mobile-menu-link" aria-label="Открыть страницу">Новости</a>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="./contact.php" class="mobile-menu-link">Контакты</a>
+          <a href="./contact.php" class="mobile-menu-link" aria-label="Открыть страницу">Контакты</a>
         </li>
       </ul>
-      <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
+      <a href="tel:+74996861014" class="mobile-phone" aria-label="Позвонить">+7 (499) 686-10-14</a>
       <div class="mobile-info">
         <svg class="phone-icon" width="24" height="24">
           <use xlink:href="./img/sprite.svg#PlacemarkFill"></use>
@@ -75,25 +73,25 @@
         <svg class="phone-icon" width="24" height="24">
           <use xlink:href="./img/sprite.svg#EmailSolid"></use>
         </svg>
-        <a href="mailto:a.dragunov@tdaliance.ru" class="mobile-info-email">
+        <a href="mailto:a.dragunov@tdaliance.ru" class="mobile-info-email" aria-label="Отправить e-mail">
           a.dragunov@tdaliance.ru
         </a>
       </div>
       <div class="mobile-social">
-        <a href="#"
-          ><svg class="phone-icon" width="24" height="24">
+        <a href="#" aria-label="Открыть сайт vkontakte">
+          <svg class="phone-icon" width="24" height="24">
             <use xlink:href="./img/sprite.svg#vk"></use>
           </svg>
         </a>
-        <a href="#"
-          ><svg class="phone-icon" width="24" height="24">
+        <a href="#" aria-label="Открыть сайт Instagram">
+          <svg class="phone-icon" width="24" height="24">
             <use xlink:href="./img/sprite.svg#instagram"></use>
           </svg>
         </a>
       </div>
     </div>
     <nav class="navbar">
-      <a href="#" class="mobile-menu-toggle">
+      <a href="#" class="mobile-menu-toggle" aria-label="Открыть мобильное меню">
         <div class="mobile-menu-line"></div>
         <div class="mobile-menu-line"></div>
         <div class="mobile-menu-line"></div>
@@ -108,31 +106,29 @@
       </a>
       <ul class="header-nav">
         <li class="header-nav-item">
-          <a href="./about.php" class="header-nav-link">О компании</a>
+          <a href="./about.php" class="header-nav-link" aria-label="Открыть страницу">О компании</a>
         </li>
         <li class="header-nav-item">
-          <a href="./contracts.php" class="header-nav-link">Контрактное производство</a>
+          <a href="./contracts.php" class="header-nav-link" aria-label="Открыть страницу">Контрактное производство</a>
         </li>
         <li class="header-nav-item">
-          <a href="./trademarks.php" class="header-nav-link">Собственные торговые марки</a>
+          <a href="./trademarks.php" class="header-nav-link" aria-label="Открыть страницу">Собственные торговые марки</a>
         </li>
         <li class="header-nav-item">
-          <a href="./error.php" class="header-nav-link">Новости</a>
+          <a href="./error.php" class="header-nav-link" aria-label="Открыть страницу">Новости</a>
         </li>
         <li class="header-nav-item">
-          <a href="/contact.php" class="header-nav-link">Контакты</a>
+          <a href="/contact.php" class="header-nav-link" aria-label="Открыть страницу">Контакты</a>
         </li>
       </ul>
       <div class="header-phone">
         <svg class="phone-icon" width="24" height="24">
           <use xlink:href="./img/sprite.svg#phone"></use>
         </svg>
-        <a href="tel:+74996861014" class="header-phone-link"
-          >+7 (499) 686-10-14</a
-        >
+        <a href="tel:+74996861014" class="header-phone-link" aria-label="Позвонить">+7 (499) 686-10-14</a>
       </div>
       <!-- /.header-phone -->
-      <button class="navbar-button button" data-toggle="modal" data-target="#feedback-modal">
+      <button class="navbar-button button" data-toggle="modal" data-target="#feedback-modal" aria-label="Отправить запрос">
         <svg class="button-icon" width="24" height="24">
           <use xlink:href="./img/sprite.svg#phone"></use>
         </svg>
@@ -140,7 +136,8 @@
       </button>
     </nav>
     <!-- /.navbar -->
-    <header class="header header-image">
+    <main>
+      <header class="header header-image">
       <div class="container">
         <div class="header-content">
           <div class="separator"></div>
@@ -153,7 +150,7 @@
             будущего проекта напрямую зависит от анализа существующих паттернов
             поведения.
           </p>
-          <button class="button header-button" data-toggle="modal" data-target="#feedback-modal">Подробнее о компании</button>
+          <button class="button header-button" data-toggle="modal" data-target="#feedback-modal" aria-label="Отправить запрос">Подробнее о компании</button>
         </div>
         <!-- /.header-content -->
 
@@ -161,7 +158,7 @@
         <?php include_once('./template-parts/swiper-features.php');?>
       </div>
       <!-- /.container -->
-    </header>
+      </header>
     <?php
     $showCta = true; 
     include_once('./template-parts/steps-swiper-block.php');?>
@@ -177,11 +174,11 @@
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
-            <a href="./blog-more.php" class="swiper-slide blog-card">
+            <a href="./blog-more.php" class="swiper-slide blog-card" aria-label="Прочитать статью">
               <picture class="blog-card-image">
                   <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
                   <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
-                  <img src="./img/blog/blog-photo-machine.jpg" alt="blog-photo">
+                  <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория">
               </picture>
               <h3 class="blog-card-title">
                 Современная методология разработки одухотворила всех причастных
@@ -192,11 +189,11 @@
                 предоставлены...
               </p>
             </a>
-            <a href="./blog-more.php" class="swiper-slide blog-card"
-              ><picture class="blog-card-image">
+            <a href="./blog-more.php" class="swiper-slide blog-card" aria-label="Прочитать статью">
+              <picture class="blog-card-image">
                   <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
                   <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
-                  <img src="./img/blog/blog-photo-pipes.jpg" alt="blog-photo">
+                  <img src="./img/blog/blog-photo-pipes.jpg" alt="Завод">
               </picture>
               <h3 class="blog-card-title">
                 Сложно сказать, почему жизнь прекрасна
@@ -207,37 +204,38 @@
                 высокотехнологичная...
               </p>
             </a>
-            <a href="#" class="swiper-slide blog-card"
-              ><picture class="blog-card-image">
+            <a href="#" class="swiper-slide blog-card" aria-label="Прочитать статью">
+              <picture class="blog-card-image">
                   <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
                   <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
-                  <img src="./img/blog/blog-photo-machine.jpg" alt="blog-photo">
+                  <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория">
               </picture>
               <h3 class="blog-card-title"></h3>
               <p class="blog-card-text"></p>
             </a>
-          </div>
+           </div>
 
-          <div class="blog-slider-footer">
-            <a href="./blog.php" class="button-link">Весь блог</a>
-            <div class="blog-buttons primary-buttons-wrapper">
-              <div class="blog-button-prev primary-button-prev">
-                <svg class="arrows-steps" width="36" height="24">
+            <div class="blog-slider-footer">
+              <a href="./blog.php" class="button-link" aria-label="Открыть страницу">Весь блог</a>
+              <div class="blog-buttons primary-buttons-wrapper">
+                <div class="blog-button-prev primary-button-prev">
+                  <svg class="arrows-steps" width="36" height="24">
                   <use xlink:href="./img/sprite.svg#arrow-prev"></use>
-                </svg>
-              </div>
-              <div class="blog-button-next primary-button-next">
-                <svg class="arrows-steps" width="36" height="24">
+                  </svg>
+                </div>
+                <div class="blog-button-next primary-button-next">
+                  <svg class="arrows-steps" width="36" height="24">
                   <use xlink:href="./img/sprite.svg#arrow-next"></use>
-                </svg>
+                  </svg>
+                </div>
               </div>
-            </div>
             <!-- /.blog-buttons -->
-          </div>
+            </div>
           <!-- /.blog-slider-footer -->
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <?php include_once('./template-parts/footer.php');?>
    

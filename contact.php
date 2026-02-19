@@ -7,7 +7,7 @@ include_once('./template-parts/header-page.php');?>
 <section class="section contacts">
   <div class="container">
     <div class="footer-top contacts-top">
-      <a href="tel:+74996861014" class="contacts-phone">+7 (499) 686-10-14</a>
+      <a href="tel:+74996861014" class="contacts-phone" aria-label="Позвонить">+7 (499) 686-10-14</a>
       <div class="footer-info">
       <svg class="phone-icon" width="32" height="32">
         <use xlink:href="./img/sprite.svg#PlacemarkFill"></use>
@@ -20,17 +20,17 @@ include_once('./template-parts/header-page.php');?>
       <svg class="phone-icon" width="30" height="30">
         <use xlink:href="./img/sprite.svg#EmailSolid"></use>
       </svg>
-      <a href="mailto:a.dragunov@tdaliance.ru" class="contacts-info-email">
+      <a href="mailto:a.dragunov@tdaliance.ru" class="contacts-info-email" aria-label="Отправить e-mail">
               a.dragunov@tdaliance.ru
       </a>
       </div>
       <div class="footer-social">
-      <a href="#" class="footer-social-link">
+      <a href="#" class="footer-social-link" aria-label="Открыть аккаунт VKontakte">
         <svg class="footer-social-icon" width="36" height="36">
           <use xlink:href="./img/sprite.svg#vk"></use>
         </svg>
       </a>
-      <a href="#" class="footer-social-link">
+      <a href="#" class="footer-social-link" aria-label="Открыть аккаунт Instagram">
         <svg class="footer-social-icon" width="36" height="36">
           <use xlink:href="./img/sprite.svg#instagram"></use>
         </svg>
@@ -42,7 +42,6 @@ include_once('./template-parts/header-page.php');?>
         <source type="image/jpeg" srcset="./img/map.png">
         <img src="./img/map.png" alt="Карта">
     </picture>
-    <img src="./img/map.png" alt="Карта" class="contacts-map">
   </div>
 </section>
 <!-- /.section contacts -->

@@ -7,11 +7,11 @@ include_once('./template-parts/header-page.php');?>
 <section class="section">
   <div class="container blog">
     <div class="blog-wrapper">
-      <a href="./blog-more.php" class="swiper-slide blog-card">
+      <a href="./blog-more.php" class="swiper-slide blog-card" aria-label="Открыть статью">
         <picture class="blog-card-image">
             <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
-            <img src="./img/blog/blog-photo-machine.jpg" alt="blog-photo">
+            <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория">
         </picture>
         
         <h3 class="blog-card-title">
@@ -20,11 +20,11 @@ include_once('./template-parts/header-page.php');?>
         Действия представителей оппозиции, превозмогая сложившуюся
         непростую экономическую ситуацию, в равной степени предоставлены...</p>
       </a>
-      <a href="#" class="swiper-slide blog-card">
+      <a href="#" class="swiper-slide blog-card" aria-label="Открыть статью">
         <picture class="blog-card-image">
             <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
-            <img src="./img/blog/blog-photo-pipes.jpg" alt="blog-photo">
+            <img src="./img/blog/blog-photo-pipes.jpg" alt="Завод">
         </picture>
        
         <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
@@ -33,11 +33,11 @@ include_once('./template-parts/header-page.php');?>
         функционально разнесены на независимые элементы. Безусловно,
         высокотехнологичная...</p>
       </a>
-      <a href="#" class="swiper-slide blog-card">
+      <a href="#" class="swiper-slide blog-card" aria-label="Открыть статью">
         <picture class="blog-card-image">
             <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
-            <img src="./img/blog/blog-photo-pipes.jpg" alt="blog-photo">
+            <img src="./img/blog/blog-photo-pipes.jpg" alt="Лаборатория">
         </picture>
         <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
         <p class="blog-card-text">
@@ -45,11 +45,11 @@ include_once('./template-parts/header-page.php');?>
         функционально разнесены на независимые элементы. Безусловно,
         высокотехнологичная...</p>
       </a>
-      <a href="./blog-more.php" class="swiper-slide blog-card">
+      <a href="./blog-more.php" class="swiper-slide blog-card" aria-label="Открыть статью">
         <picture class="blog-card-image">
             <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
-            <img src="./img/blog/blog-photo-machine.jpg" alt="blog-photo">
+            <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория">
         </picture>
         <h3 class="blog-card-title">
         Современная методология разработки одухотворила всех причастных</h3>
@@ -57,11 +57,11 @@ include_once('./template-parts/header-page.php');?>
         Действия представителей оппозиции, превозмогая сложившуюся
         непростую экономическую ситуацию, в равной степени предоставлены...</p>
       </a>
-      <a href="./blog-more.php" class="swiper-slide blog-card">
+      <a href="./blog-more.php" class="swiper-slide blog-card" aria-label="Открыть статью">
         <picture class="blog-card-image">
             <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
-            <img src="./img/blog/blog-photo-machine.jpg" alt="blog-photo">
+            <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория">
         </picture>
         <h3 class="blog-card-title">
         Современная методология разработки одухотворила всех причастных</h3>
@@ -69,11 +69,11 @@ include_once('./template-parts/header-page.php');?>
         Действия представителей оппозиции, превозмогая сложившуюся
         непростую экономическую ситуацию, в равной степени предоставлены...</p>
       </a>
-      <a href="#" class="swiper-slide blog-card">
+      <a href="#" class="swiper-slide blog-card" aria-label="Открыть статью">
         <picture class="blog-card-image">
             <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
-            <img src="./img/blog/blog-photo-pipes.jpg" alt="blog-photo">
+            <img src="./img/blog/blog-photo-pipes.jpg" alt="Завод">
         </picture>
         <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
         <p class="blog-card-text">
@@ -81,11 +81,11 @@ include_once('./template-parts/header-page.php');?>
         функционально разнесены на независимые элементы. Безусловно,
         высокотехнологичная...</p>
       </a>
-      <a href="#" class="swiper-slide blog-card">
+      <a href="#" class="swiper-slide blog-card" aria-label="Открыть статью">
         <picture class="blog-card-image">
             <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
-            <img src="./img/blog/blog-photo-pipes.jpg" alt="blog-photo">
+            <img src="./img/blog/blog-photo-pipes.jpg" alt="Завод">
         </picture>
         <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
         <p class="blog-card-text">
@@ -93,11 +93,11 @@ include_once('./template-parts/header-page.php');?>
         функционально разнесены на независимые элементы. Безусловно,
         высокотехнологичная...</p>
       </a>
-      <a href="./blog-more.php" class="swiper-slide blog-card">
+      <a href="./blog-more.php" class="swiper-slide blog-card" aria-label="Открыть статью">
         <picture class="blog-card-image">
             <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
-            <img src="./img/blog/blog-photo-machine.jpg" alt="blog-photo">
+            <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория">
         </picture>
         <h3 class="blog-card-title">
         Современная методология разработки одухотворила всех причастных</h3>
@@ -105,11 +105,11 @@ include_once('./template-parts/header-page.php');?>
         Действия представителей оппозиции, превозмогая сложившуюся
         непростую экономическую ситуацию, в равной степени предоставлены...</p>
       </a>
-      <a href="./blog-more.php" class="swiper-slide blog-card">
+      <a href="./blog-more.php" class="swiper-slide blog-card" aria-label="Открыть статью">
         <picture class="blog-card-image">
             <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
-            <img src="./img/blog/blog-photo-machine.jpg" alt="blog-photo">
+            <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория">
         </picture>
         <h3 class="blog-card-title">
         Современная методология разработки одухотворила всех причастных</h3>
@@ -117,11 +117,11 @@ include_once('./template-parts/header-page.php');?>
         Действия представителей оппозиции, превозмогая сложившуюся
         непростую экономическую ситуацию, в равной степени предоставлены...</p>
       </a>
-      <a href="#" class="swiper-slide blog-card">
+      <a href="#" class="swiper-slide blog-card" aria-label="Открыть статью">
         <picture class="blog-card-image">
             <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
-            <img src="./img/blog/blog-photo-pipes.jpg" alt="blog-photo">
+            <img src="./img/blog/blog-photo-pipes.jpg" alt="Завод">
         </picture>
         <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
         <p class="blog-card-text">

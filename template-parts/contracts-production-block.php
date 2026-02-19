@@ -8,7 +8,7 @@
         ?>
         
         <div class="cards">
-          <a href="./avtohim.php" class="card">
+          <a href="./avtohim.php" class="card" aria-label="Открыть страницу">
             <div class="card-content">
               <h3 class="card-title">Автомобильная химия</h3>
               <p class="card-text">
@@ -24,7 +24,7 @@
             </picture>
             
           </a>
-          <a href="#" class="card">
+          <a href="#" class="card" aria-label="Открыть страницу">
             <div class="card-content">
               <h3 class="card-title">Бытовая химия</h3>
               <p class="card-text">
@@ -40,7 +40,7 @@
             </picture>
             
           </a>
-          <a href="#" class="card">
+          <a href="#" class="card" aria-label="Открыть страницу">
             <div class="card-content">
               <h3 class="card-title">Дезинфицирующие средства</h3>
               <p class="card-text">
@@ -55,7 +55,7 @@
             </picture>
             
           </a>
-          <a href="#" class="card">
+          <a href="#" class="card" aria-label="Открыть страницу">
             <div class="card-content">
               <h3 class="card-title">Пищевые аэрозоли</h3>
               <p class="card-text">
@@ -71,7 +71,7 @@
             </picture>
             
           </a>
-          <a href="#" class="card">
+          <a href="#" class="card" aria-label="Открыть страницу">
             <div class="card-content">
               <h3 class="card-title">Косметическая продукция</h3>
               <p class="card-text">
@@ -86,7 +86,7 @@
             </picture>
             
           </a>
-          <a href="#" class="card">
+          <a href="#" class="card" aria-label="Открыть страницу">
             <div class="card-content">
               <h3 class="card-title">Краски аэрозольные</h3>
               <p class="card-text">

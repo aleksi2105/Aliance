@@ -20,7 +20,7 @@ include_once('./template-parts/header-page.php');?>
         <picture class="article-image">
           <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
           <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
-          <img src="./img/blog/blog-photo-machine.jpg" alt="Laboratory">
+          <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория">
         </picture>
         <h4 class="article-third-title">Равным образом консультация с широким активом:</h4>
         <ul class="article-third-list">
@@ -57,22 +57,22 @@ include_once('./template-parts/header-page.php');?>
       <div class="blog-text-social">
         <h5 class="blog-text-social-title">Поделиться:</h5>
         <ul class="social-link-group">
-          <a href="#" class="social-link-item">
+          <a href="#" class="social-link-item" aria-label="Открыть аккаунт VKontakte">
             <svg class="button-icon" width="24" height="24">
               <use xlink:href="./img/sprite.svg#vk"></use>
             </svg>
           </a>
-          <a href="#" class="social-link-item">
+          <a href="#" class="social-link-item" aria-label="Открыть аккаунт Facebook">
             <svg class="button-icon" width="24" height="24">
               <use xlink:href="./img/sprite.svg#facebook"></use>
             </svg>
           </a>
-          <a href="#" class="social-link-item">
+          <a href="#" class="social-link-item" aria-label="Открыть аккаунт Twitter">
             <svg class="button-icon" width="24" height="24">
               <use xlink:href="./img/sprite.svg#twitter"></use>
             </svg>
           </a>
-          <a href="#" class="social-link-item">
+          <a href="#" class="social-link-item" aria-label="Открыть аккаунт Google+">
             <svg class="button-icon" width="24" height="24">
               <use xlink:href="./img/sprite.svg#google-plus"></use>
             </svg>
@@ -89,11 +89,11 @@ include_once('./template-parts/header-page.php');?>
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
-            <a href="./blog-more.php" class="swiper-slide blog-card">
+            <a href="./blog-more.php" class="swiper-slide blog-card" aria-label="Открыть статью">
               <picture class="blog-card-image">
                   <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
                   <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
-                  <img src="./img/blog/blog-photo-machine.jpg" alt="blog-photo">
+                  <img src="./img/blog/blog-photo-machine.jpg" alt="Лаборатория">
               </picture>
               
               <h3 class="blog-card-title">
@@ -105,7 +105,7 @@ include_once('./template-parts/header-page.php');?>
                 предоставлены...
               </p>
             </a>
-            <a href="#" class="swiper-slide blog-card">
+            <a href="#" class="swiper-slide blog-card" aria-label="Открыть статью">
               <picture class="blog-card-image">
                   <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
                   <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
@@ -121,7 +121,7 @@ include_once('./template-parts/header-page.php');?>
                 высокотехнологичная...
               </p>
             </a>
-            <a href="#" class="swiper-slide blog-card">
+            <a href="#" class="swiper-slide blog-card" aria-label="Открыть статью">
               <picture class="blog-card-image">
                   <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
                   <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">

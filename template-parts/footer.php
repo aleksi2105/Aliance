@@ -4,7 +4,7 @@
         <picture class="cta-image">
           <source type="image/webp" srcset="./img/cta.webp">
           <source type="image/jpeg" srcset="./img/cta.png">
-          <img src="./img/cta.png" alt="spray">
+          <img src="./img/cta.png" alt="Спрей">
         </picture>
         
         <div class="cta-form-wrapper container">
@@ -38,9 +38,7 @@
                   maxlength="30"
                   required
                 />
-                <label class="input-group-label" for="user-phone"
-                  >Номер телефона</label
-                >
+                <label class="input-group-label" for="user-phone">Номер телефона</label>
               </div>
             </div>
             <!-- /.input-group-wrapper -->
@@ -71,7 +69,7 @@
           <svg class="logo-svg footer-logo">
             <use href="./img/sprite.svg#logo"></use>
           </svg>
-          <a href="tel:+79996861014" class="footer-phone">+7 (499) 686-10-14</a>
+          <a href="tel:+79996861014" class="footer-phone" aria-label="Позвонить">+7 (499) 686-10-14</a>
           <div class="footer-info">
             <svg class="phone-icon" width="20" height="20">
               <use xlink:href="./img/sprite.svg#PlacemarkFill"></use>
@@ -84,17 +82,17 @@
             <svg class="phone-icon" width="20" height="20">
               <use xlink:href="./img/sprite.svg#EmailSolid"></use>
             </svg>
-            <a href="mailto:a.dragunov@tdaliance.ru" class="footer-info-email">
+            <a href="mailto:a.dragunov@tdaliance.ru" class="footer-info-email" aria-label="Отправить e-mail">
               a.dragunov@tdaliance.ru
             </a>
           </div>
           <div class="footer-social">
-            <a href="#" class="footer-social-link">
+            <a href="#" class="footer-social-link" aria-label="Открыть сайт VKontakte">
               <svg class="footer-social-icon" width="20" height="20">
                 <use xlink:href="./img/sprite.svg#vk"></use>
               </svg>
             </a>
-            <a href="#" class="footer-social-link">
+            <a href="#" class="footer-social-link" aria-label="Открыть сайт Instagram">
               <svg class="footer-social-icon" width="20" height="20">
                 <use xlink:href="./img/sprite.svg#instagram"></use>
               </svg>
@@ -109,24 +107,23 @@
             <h2 class="footer-menu-title">Контрактное производство</h2>
             <ul class="footer-menu-list footer-menu-column-2">
               <li class="footer-menu-item">
-                <a href="./avtohim.php" class="footer-menu-link">Автомобильная химия</a>
+                <a href="./avtohim.php" class="footer-menu-link" aria-label="Открыть страницу">Автомобильная химия</a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Бытовая химия</a>
+                <a href="#" class="footer-menu-link" aria-label="Открыть страницу">Бытовая химия</a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link"
-                  >Дезинфицирующие средства</a
-                >
+                <a href="#" class="footer-menu-link" aria-label="Открыть страницу">Дезинфицирующие средства
+                </a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Пищевые аэрозоли</a>
+                <a href="#" class="footer-menu-link" aria-label="Открыть страницу">Пищевые аэрозоли</a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Косметическая продукция</a>
+                <a href="#" class="footer-menu-link" aria-label="Открыть страницу">Косметическая продукция</a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Краски аэрозольные</a>
+                <a href="#" class="footer-menu-link" aria-label="Открыть страницу">Краски аэрозольные</a>
               </li>
             </ul>
           </div>
@@ -135,10 +132,10 @@
             <h2 class="footer-menu-title">Собственные марки</h2>
             <ul class="footer-menu-list">
               <li class="footer-menu-item">
-                <a href="./ag-tech.php" class="footer-menu-link">Автохимия AG-Tech</a>
+                <a href="./ag-tech.php" class="footer-menu-link" aria-label="Открыть страницу">Автохимия AG-Tech</a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Автохимия AP</a>
+                <a href="#" class="footer-menu-link" aria-label="Открыть страницу">Автохимия AP</a>
               </li>
             </ul>
           </div>
@@ -146,19 +143,13 @@
           <div class="footer-menu-wrapper">
             <ul class="footer-menu-list">
               <li class="footer-menu-item">
-                <a href="./about.php" class="footer-menu-link footer-menu-link-bold"
-                  >О компании</a
-                >
+                <a href="./about.php" class="footer-menu-link footer-menu-link-bold" aria-label="Открыть страницу">О компании</a>
               </li>
               <li class="footer-menu-item">
-                <a href="./error.php" class="footer-menu-link footer-menu-link-bold"
-                  >Новости</a
-                >
+                <a href="./error.php" class="footer-menu-link footer-menu-link-bold" aria-label="Открыть страницу">Новости</a>
               </li>
               <li class="footer-menu-item">
-                <a href="./contact.php" class="footer-menu-link footer-menu-link-bold"
-                  >Контакты</a
-                >
+                <a href="./contact.php" class="footer-menu-link footer-menu-link-bold" aria-label="Открыть страницу">Контакты</a>
               </li>
             </ul>
           </div>
@@ -172,7 +163,7 @@
             <p class="footer-copyright">
               &copy; <?php echo date('Y')?> «Aliance Production». Все права защищены.
             </p>
-            <a href="./politics.php" class="footer-policy">Политики конфиденциальности</a>
+            <a href="./politics.php" class="footer-policy" aria-label="Открыть страницу">Политики конфиденциальности</a>
           </div>
           <!-- /.footer-legal -->
           <div class="footer-author">
@@ -187,7 +178,7 @@
     <div class="modal" id="feedback-modal">
       <div class="modal-dialog">
         <h2 class="modal-title">Есть вопросы?</h2>
-        <a href="#" class="modal-close" data-toggle="modal" data-target="#feedback-modal">
+        <a href="#" class="modal-close" data-toggle="modal" data-target="#feedback-modal" aria-label="Закрыть">
           <svg class="close-icon" width="24" height="24">
             <use href="./img/sprite.svg#close"></use>
           </svg>
@@ -251,10 +242,10 @@
         <picture class="alert-modal-img">
           <source type="image/webp" srcset="./img/thanks_illu.webp">
           <source type="image/jpeg" srcset="./img/thanks_illu.png">
-          <img src="./img/thanks_illu.png" alt="Thank you">
+          <img src="./img/thanks_illu.png" alt="Спасибо">
         </picture>
         <h2 class="modal-title">Спасибо за заявку!</h2>
-        <a href="#" class="alert-modal-close" data-toggle="modal" data-target="#alert-modal">
+        <a href="#" class="alert-modal-close" data-toggle="modal" data-target="#alert-modal" aria-label="Закрыть">
           <svg class="close-icon" width="24" height="24">
             <use href="./img/sprite.svg#close"></use>
           </svg>

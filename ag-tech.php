@@ -15,8 +15,8 @@ include_once('./template-parts/header-page.php');?>
   <div class="container">
     <div class="distributor-wrapper">
       <div class="separator"></div>
-    <h2 class="section-title">Генеральный дистрибьютор <br> премиальной автохимии</h2>
-    <p class="types-text">Внезапно, активно развивающиеся страны третьего мира могут быть объявлены нарушающими общечеловеческие нормы этики и морали.</p>
+      <h2 class="section-title">Генеральный дистрибьютор <br> премиальной автохимии</h2>
+      <p class="types-text">Внезапно, активно развивающиеся страны третьего мира могут быть объявлены нарушающими общечеловеческие нормы этики и морали.</p>
     <ul class="clients-list">
       <li class="clients-list-item">
         <svg width="30" height="30" class="client-logo">
@@ -48,7 +48,7 @@ include_once('./template-parts/header-page.php');?>
   <picture class="distributor-image">
         <source type="image/webp" srcset="./img/book.webp">
         <source type="image/jpeg" srcset="./img/book.png">
-        <img src="./img/book.png" alt="Book">
+        <img src="./img/book.png" alt="Каталог">
   </picture>
   
 </section>
