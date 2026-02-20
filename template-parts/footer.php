@@ -66,9 +66,11 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-top">
-          <svg class="logo-svg footer-logo">
-            <use href="./img/sprite.svg#logo"></use>
-          </svg>
+          <a href="./" aria-label="Открыть главную страницу">
+            <svg class="logo-svg footer-logo">
+              <use href="./img/sprite.svg#logo"></use>
+            </svg>
+          </a>
           <a href="tel:+79996861014" class="footer-phone" aria-label="Позвонить">+7 (499) 686-10-14</a>
           <div class="footer-info">
             <svg class="phone-icon" width="20" height="20">
