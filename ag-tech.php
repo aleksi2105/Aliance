@@ -1,5 +1,5 @@
 <?php 
-$page_title = 'Автохимия <b>AG-Tech</b> ';
+$page_title = 'Автохимия AG-Tech ';
 $header_style = 'header-page-image';
 $showTitle = true;
 $showCta = true;
