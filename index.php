@@ -112,19 +112,19 @@
       </a>
       <ul class="header-nav">
         <li class="header-nav-item">
-          <a href="./about.php" class="header-nav-link" aria-label="Открыть страницу">О компании</a>
+          <a href="./about.php" class="header-nav-link" aria-label="Открыть страницу">О компаниикомпаниикомпании</a>
         </li>
         <li class="header-nav-item">
-          <a href="./contracts.php" class="header-nav-link" aria-label="Открыть страницу">Контрактное производство</a>
+          <a href="./contracts.php" class="header-nav-link" aria-label="Открыть страницу">Контрактное производствокомпаниикомпании</a>
         </li>
         <li class="header-nav-item">
-          <a href="./trademarks.php" class="header-nav-link" aria-label="Открыть страницу">Собственные торговые марки</a>
+          <a href="./trademarks.php" class="header-nav-link" aria-label="Открыть страницу">Собственные торговые компаниикомпаниимарки</a>
         </li>
         <li class="header-nav-item">
-          <a href="./error.php" class="header-nav-link" aria-label="Открыть страницу">Новости</a>
+          <a href="./error.php" class="header-nav-link" aria-label="Открыть страницу">Новосткомпаниикомпаниии</a>
         </li>
         <li class="header-nav-item">
-          <a href="./contact.php" class="header-nav-link" aria-label="Открыть страницу">Контакты</a>
+          <a href="./contact.php" class="header-nav-link" aria-label="Открыть страницу">Контакткомпаниикомпанииы</a>
         </li>
       </ul>
       <div class="header-phone">
