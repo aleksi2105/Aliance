@@ -373,6 +373,7 @@ body {
   border: 1px solid #ebebf0;
   position: relative;
   transition: border 0.2s;
+  overflow: hidden;
 }
 @media all and (min-width: 991px) {
   .card:hover .card-title {
