@@ -310,6 +310,7 @@ body {
 .steps-item {
   max-width: 20.625rem;
   padding: 0;
+  overflow: auto;
 }
 .steps-num {
   display: flex;
