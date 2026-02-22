@@ -260,6 +260,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+.swiper-slide {
+  height: auto;
+}
 .primary-buttons-wrapper {
   display: flex;
   height: 60px;
