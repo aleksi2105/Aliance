@@ -111,7 +111,7 @@ body {
   align-items: center;
 }
 .header-nav-item:not(:last-child) {
-  margin-right: 4%;
+  margin-right: 5%;
 }
 .header-nav-link {
   display: flex;
@@ -228,14 +228,14 @@ body {
   color: #ffffff;
 }
 .header-features-item {
-  padding: 1.4rem 3.125rem;
+  padding: 1.6rem 3.125rem;
   height: auto;
   width: 18rem;
   border: 1px solid #ebebf0;
 }
 .header-features-text {
   font-weight: 400;
-  font-size: 1.18rem;
+  font-size: 1rem;
   line-height: 160%;
   margin-bottom: 0;
   margin-top: 1.125rem;
@@ -286,6 +286,10 @@ body {
   margin-top: 5.8125rem;
   margin-bottom: 9.375rem;
 }
+.section-light {
+  margin-top: 8.1rem;
+  margin-bottom: 7rem;
+}
 .section-title {
   margin-top: 1.5625rem;
   margin-bottom: 1.5rem;
@@ -303,7 +307,7 @@ body {
   min-width: 88.125rem;
   display: flex;
   justify-content: space-around;
-  padding: 0;
+  /* padding: 0; */
   list-style: none;
   gap: 1.875rem;
 }
@@ -1063,7 +1067,7 @@ body {
   overflow: hidden;
 }
 .researchs-card {
-  display: flex;
+  display: block;
   position: relative;
   min-height: 25rem;
   max-width: 44.0625rem;

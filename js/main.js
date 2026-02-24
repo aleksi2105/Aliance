@@ -191,6 +191,18 @@ forms.forEach((form) => {
         rule: 'required',
         errorMessage: "Укажите телефон",
       },
+      {
+        rule: 'minLength',
+        value: 11,
+        errorMessage: "Введите полный номер (11 цифр)",
+      },
+      {
+        validator: (value) => {
+          const digits = value.replace(/\D/g, ''); // Убираем всё кроме цифр
+          return digits.length === 11;
+        },
+        errorMessage: "Номер должен содержать ровно 11 цифр",
+      },
     ])
     .onSuccess((event) => {
       const thisForm = event.target;
