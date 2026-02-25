@@ -373,10 +373,11 @@ body {
 .cards {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 3.5rem;
 }
 .card {
   text-decoration: none;
-  flex-basis: 33%;
+  flex-basis: 33.3%;
   border: 1px solid #ebebf0;
   position: relative;
   transition: border 0.2s;
@@ -391,7 +392,8 @@ body {
   }
 }
 .card-content {
-  padding: 1rem 3.125rem;
+  padding-top: 1.5rem;
+  padding-left: 3rem;
 }
 .card-image {
   position: absolute;
@@ -413,10 +415,13 @@ body {
   font-size: 1rem;
   line-height: 160%;
   color: #828a99;
+  margin-top: 0;
   margin-bottom: 24.625rem;
+  margin-right: 6rem;
 }
 .brand-cards {
   display: flex;
+  margin-top: 3.5rem;
 }
 .brand-card {
   display: grid;
