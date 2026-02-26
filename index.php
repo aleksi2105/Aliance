@@ -222,7 +222,7 @@
            </div>
 
             <div class="blog-slider-footer">
-              <a href="./blog.php" class="button-link" aria-label="Открыть страницу">Весь блог</a>
+              <a href="./blog.php" class="button-link button-link-blog" aria-label="Открыть страницу">Весь блог</a>
               <div class="blog-buttons primary-buttons-wrapper">
                 <div class="blog-button-prev primary-button-prev">
                   <svg class="arrows-steps" width="36" height="24">
