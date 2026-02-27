@@ -11,7 +11,7 @@ $description = 'Прежде всего, начало повседневной �
 include_once('./template-parts/header-page.php');?>
 <?php include_once('./template-parts/about-image-text.php')?>
 <!-- /.section section-about -->
- <section class="section founder">
+ <section class="section founder avtohim">
   <div class="container production-wrapper">
     <div class="production-description founder-content">
       <div class="separator"></div>
@@ -182,7 +182,9 @@ include_once('./template-parts/header-page.php');?>
  <!-- /.section chemycal-types -->
 <?php include_once('./template-parts/research-block.php');?>
 <!-- /.section-research -->
- <?php include_once('./template-parts/steps-swiper-block.php');?>
+<section class="section section-light steps-avtohim">
+  <?php include_once('./template-parts/steps-swiper-block.php');?>
+</section>
  <!-- section-steps -->
 <?php include_once('./template-parts/clients-block.php');?>
 <!-- /.section-clients -->

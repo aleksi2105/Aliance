@@ -55,7 +55,9 @@ include_once('./template-parts/header-page.php');?>
 <!-- /.section distributor -->
 <?php include_once('./template-parts/research-block.php');?>
 <!-- /.section-research -->
-<?php include_once('./template-parts/steps-swiper-block.php');?>
+<section class="section section-light">
+  <?php include_once('./template-parts/steps-swiper-block.php');?>
+</section>
  <!-- section-steps -->
 <?php include_once('./template-parts/clients-block.php');?>
 <!-- /.section-clients -->

@@ -1,4 +1,4 @@
-<section class="section section-light">
+
       <div class="container">
         <div class="separator"></div>
         <h2 class="section-title">схема работы</h2>
@@ -62,4 +62,4 @@
         </div>
       </div>
       <!-- /.container -->
-    </section>
+    

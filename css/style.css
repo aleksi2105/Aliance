@@ -290,6 +290,12 @@ body {
   margin-top: 8.1rem;
   margin-bottom: 6.5rem;
 }
+.avtohim {
+  margin-top: 8rem;
+}
+.steps-avtohim {
+  margin-top: -0.5rem;
+}
 .section-title {
   margin-top: 1.5625rem;
   margin-bottom: 1.5rem;
@@ -1106,7 +1112,7 @@ body {
   margin-right: 15rem;
 }
 .seo {
-  margin-top: -2.9rem;
+  margin-top: -3.3rem;
 }
 .seo-title {
   font-weight: 400;
