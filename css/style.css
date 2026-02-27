@@ -296,6 +296,9 @@ body {
 .steps-avtohim {
   margin-top: -0.5rem;
 }
+.own-brands {
+  margin-bottom: 13rem;
+}
 .section-title {
   margin-top: 1.5625rem;
   margin-bottom: 1.5rem;
@@ -1183,7 +1186,8 @@ body {
   min-height: 42.25rem;
   background-color: #f0f2f5;
   position: relative;
-  padding-top: 6.25rem;
+  margin-top: 8rem;
+  padding-top: 5.7rem;
   padding-bottom: 6.25rem;
 }
 .distributor-image {
@@ -1199,7 +1203,6 @@ body {
   padding-top: 9px;
 }
 .download-button {
-  margin-top: 3.125rem;
   display: flex;
   align-items: center;
   gap: 0.625rem;

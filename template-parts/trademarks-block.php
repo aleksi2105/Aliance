@@ -1,4 +1,4 @@
-<section class="section brands">
+
       <div class="container">
         
         <?php
@@ -33,4 +33,4 @@
         </div>
         <!-- /.cards -->
       </div>
-    </section>
+    
