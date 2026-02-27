@@ -1,4 +1,4 @@
-<section class="section our-production">
+
   <div class="container production-wrapper">
     <div class="production-description">
       <div class="separator"></div>
@@ -52,4 +52,4 @@
         <img src="./img/laboratory.png" alt="Лаборант" class="production-lab-img">
     </picture>
   </div>
- </section>
+ 

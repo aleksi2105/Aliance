@@ -6,7 +6,9 @@ $showCta = true;
 include_once('./template-parts/header-page.php');?>
 <?php include_once('./template-parts/about-image-text.php')?>
 <!-- /.section section-about -->
-<?php include_once('./template-parts/our-production-block.php');?>
+<section class="section our-production">
+  <?php include_once('./template-parts/our-production-block.php');?>
+</section>
  <!-- /.section production -->
 <?php include_once('./template-parts/founder-block.php');?>
 <!-- /.section-founder -->

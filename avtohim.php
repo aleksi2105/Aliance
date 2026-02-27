@@ -11,7 +11,7 @@ $description = 'Прежде всего, начало повседневной �
 include_once('./template-parts/header-page.php');?>
 <?php include_once('./template-parts/about-image-text.php')?>
 <!-- /.section section-about -->
- <section class="section our-production founder">
+ <section class="section founder">
   <div class="container production-wrapper">
     <div class="production-description founder-content">
       <div class="separator"></div>
