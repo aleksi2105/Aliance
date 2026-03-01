@@ -1563,13 +1563,16 @@ body {
   }
 
   .mobile-menu-line {
-    height: 1px;
+    height: 1px !important;
+    min-height: 1px !important;
+    flex-shrink: 0 !important;
+
     width: 1.8rem;
     background-color: #ffffff;
     transition: transform 0.2s;
   }
   .navbar.navbar-light .mobile-menu-toggle .mobile-menu-line {
-    background-color: #333333;
+    background-color: #292d33 !important;
   }
   .mobile-menu-line:nth-child(2) {
     width: 1.4rem;
@@ -1669,10 +1672,12 @@ body {
     display: none;
   }
   .close-menu .mobile-menu-line:nth-child(1) {
-    transform: rotate(45deg) translateY(9px);
+    transform: rotate(45deg) translateY(4px);
+    color: #292d33;
   }
   .close-menu .mobile-menu-line:nth-child(3) {
-    transform: rotate(-45deg) translateY(-9px);
+    transform: rotate(-45deg) translateY(-4px);
+    color: #292d33;
   }
   .primary-buttons-wrapper {
     display: flex;

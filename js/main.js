@@ -26,13 +26,18 @@ const closeMenu = (event) => { //функция закрывания меню
   menu.classList.remove('is-open');
   mMenuToggle.classList.remove("close-menu");
   document.body.style.overflow = ""; //возвращает прокрутку под меню
-  lightModeOff();
+  const scrolled = window.scrollY > 1;
+  if (isFront) {
+    scrolled ? lightModeOn() : lightModeOff();
+  }
 }
 
 window.addEventListener('scroll', () => {
-  this.scrollY > 1 ? changeNavHeight("4.5rem") : changeNavHeight("5.875rem");
+  const scrolled = window.scrollY > 1;
+  changeNavHeight(scrolled ? "4.5rem" : "5.875rem");
+
   if (isFront) {
-    this.scrollY > 1 ? lightModeOn() : lightModeOff();
+    scrolled ? lightModeOn() : lightModeOff();
   }
 });
 mMenuToggle.addEventListener("click", (event) => {
