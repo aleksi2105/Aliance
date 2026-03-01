@@ -175,7 +175,7 @@
       <?php $block_title = "Собственные торговые марки"; include_once('./template-parts/trademarks-block.php');?></section>
     <?php $block_title = "Подробнее о компании"; include_once('./template-parts/founder-block.php');?>
     <?php include_once('./template-parts/clients-block.php')?>
-    <section class="section">
+    <section class="section blog-section">
       <div class="container">
         <div class="separator"></div>
         <h2 class="section-title">Блог экспертов в области производства</h2>

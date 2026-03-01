@@ -545,6 +545,7 @@ body {
   justify-content: center;
   padding: 3rem 1rem 2.4rem 1rem;
 }
+
 .clients-logo {
   max-width: 100%;
   width: 70px;
@@ -1905,6 +1906,9 @@ body {
     margin-right: 0;
     margin-bottom: 25.4rem;
   }
+  .brands {
+    margin-bottom: 0;
+  }
   .brand-card {
     grid-template-areas: "logo title" "text text";
     padding: 1.125rem;
@@ -1929,11 +1933,50 @@ body {
     margin-left: 26px;
     margin-top: 18px;
   }
+  .founder {
+    padding-top: 19px;
+    margin-bottom: 6.375rem;
+  }
+  .founder-content {
+    margin-top: 9px;
+  }
+  .founder-text {
+    margin-top: -6px;
+    padding-right: 19px;
+    color: #828a99;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 166%;
+    margin-bottom: 1.5rem;
+  }
+  .clients {
+    margin-bottom: 7.8rem;
+  }
   .clients-list {
     columns: 1;
   }
+  .clients-list-item {
+    font-size: 1.2rem;
+    padding-bottom: 0.25rem;
+    gap: 1.5rem;
+  }
+  .clients-logo-list {
+    margin-top: 1.4rem;
+    margin-left: 0rem;
+  }
   .clients-logo-item {
     flex-basis: 50%;
+    padding: 2rem 1rem 2.7rem 1rem;
+  }
+  .clients-logo-item:nth-child(n + 9) {
+    display: none;
+  }
+  .clients-logo {
+    width: 50px;
+    height: 50px;
+  }
+  .blog-slider {
+    margin-top: 2.7rem;
   }
   .blog-card-text {
     display: none;
@@ -1947,7 +1990,19 @@ body {
   }
   .blog-card-title {
     font-style: normal;
-    line-height: 130%;
+    line-height: 120%;
+    margin: 0;
+    margin-left: 6px;
+  }
+  .blog-slider-footer {
+    margin-top: 1.2rem;
+  }
+  .button-link-blog {
+    margin-top: 1rem;
+    gap: 4px;
+  }
+  .blog-section {
+    margin-bottom: -3.2rem;
   }
   .section-cta {
     padding-top: 2rem;
@@ -1969,14 +2024,18 @@ body {
   .cta-form-footer {
     flex-direction: column;
     gap: 2.5rem;
+    margin-top: 2.6rem;
   }
   .cta-form-text {
     font-size: 14px;
+    margin-top: 11px;
   }
   .notify-text {
     font-size: 1rem;
+    max-width: fit-content;
   }
   .footer-top {
+    padding-top: 4.125rem;
     padding-bottom: 1.7rem;
     flex-direction: column;
     align-items: flex-start;
@@ -1985,13 +2044,28 @@ body {
   .footer-logo {
     width: 26.5rem;
     height: 3.75rem;
-    max-width: 12.5rem;
+    min-width: 13.5rem;
   }
   .footer-phone {
     font-size: 28px;
+    margin-left: 0;
+    margin-top: 0.8rem;
+  }
+  .footer-info {
+    font-size: 1.2rem;
+    gap: 13px;
+  }
+  .footer-info-email {
+    margin-top: -5px;
+  }
+  .email-icon {
+    margin-top: -6px;
   }
   .footer-bottom {
     flex-direction: column;
+  }
+  .footer-pages {
+    padding-left: 0;
   }
   .footer-menu-title {
     font-size: 14px;
@@ -2002,6 +2076,10 @@ body {
   .footer-menu-link {
     font-size: 14px;
     line-height: 144%;
+  }
+  .footer-menu-link-bold {
+    margin-top: 12px;
+    margin-bottom: 2.875rem;
   }
   .footer-menu-wrapper:last-child {
     margin: 0;
@@ -2022,6 +2100,12 @@ body {
     font-size: 12px;
     margin: 0;
   }
+  .footer-wrapper,
+  .footer-legal,
+  .footer-underline {
+    margin-top: 0;
+  }
+
   .modal-form-button {
     padding: 1.5rem 3.75rem;
     font-size: 14px;

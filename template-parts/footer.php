@@ -81,7 +81,7 @@
             </address>
           </div>
           <div class="footer-info">
-            <svg class="phone-icon" width="20" height="20">
+            <svg class="phone-icon email-icon" width="20" height="20">
               <use xlink:href="./img/sprite.svg#EmailSolid"></use>
             </svg>
             <a href="mailto:a.dragunov@tdaliance.ru" class="footer-info-email" aria-label="Отправить e-mail">
@@ -143,7 +143,7 @@
           </div>
           <!-- /.footer-menu-wrapper -->
           <div class="footer-menu-wrapper">
-            <ul class="footer-menu-list">
+            <ul class="footer-menu-list footer-pages">
               <li class="footer-menu-item">
                 <a href="./about.php" class="footer-menu-link footer-menu-link-bold" aria-label="Открыть страницу">О компании</a>
               </li>
