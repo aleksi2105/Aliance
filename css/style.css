@@ -1882,6 +1882,7 @@ body {
   }
   .header-features-text {
     font-size: 14px;
+    margin-top: 1.5rem;
   }
   .steps-slider {
     margin-top: -7px;
@@ -2128,9 +2129,7 @@ body {
     padding: 1.5rem 3.75rem;
     font-size: 14px;
   }
-  .header-page-image {
-    display: none;
-  }
+
   .researchs-buttons {
     margin-right: 1rem;
   }
@@ -2169,5 +2168,32 @@ body {
   }
   .button-link-more {
     font-size: 1.2rem;
+  }
+  .avtohim-about {
+    margin-top: 10.5rem;
+    margin-bottom: -1.28rem;
+  }
+  .about-description {
+    margin-top: 3rem;
+  }
+  .about-text {
+    font-size: 14px;
+    margin-bottom: -2.75rem;
+  }
+  .production-text {
+    font-size: 14px;
+    line-height: 156%;
+  }
+  .avtohim-client-logo {
+    width: 23px;
+  }
+  .avtohim-client-car {
+    width: 30px;
+  }
+  .avtohim-client-brush {
+    width: 30px;
+  }
+  .clients-list-item {
+    gap: 1rem;
   }
 }
