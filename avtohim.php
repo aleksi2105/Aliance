@@ -26,7 +26,7 @@ include_once('./template-parts/header-page.php');?>
                 Полное описание товаров
               </li>
               <li class="clients-list-item">
-                <svg width="30" height="30" class="avtohim-client-car">
+                <svg width="30" height="30" class="avtohim-client-logo">
                   <use xlink:href="./img/sprite.svg#carwash"></use>
                 </svg>
                 Актуальные цены
@@ -38,13 +38,13 @@ include_once('./template-parts/header-page.php');?>
                 Полное описание товаров
               </li>
               <li class="clients-list-item">
-                <svg width="30" height="30" class="avtohim-client-car">
+                <svg width="30" height="30" class="avtohim-client-logo">
                   <use xlink:href="./img/sprite.svg#carwash"></use>
                 </svg>
                 Актуальные цены
               </li>
               <li class="clients-list-item">
-                <svg width="30" height="30" class="avtohim-client-brush">
+                <svg width="30" height="30" class="avtohim-client-logo">
                   <use xlink:href="./img/sprite.svg#brush"></use>
                 </svg>
                 Лаки и краски
@@ -56,7 +56,7 @@ include_once('./template-parts/header-page.php');?>
                 Химические производства
               </li>
               <li class="clients-list-item">
-                <svg width="30" height="30" class="avtohim-client-brush">
+                <svg width="30" height="30" class="avtohim-client-logo">
                   <use xlink:href="./img/sprite.svg#brush"></use>
                 </svg>
                 Лаки и краски
@@ -186,6 +186,147 @@ include_once('./template-parts/header-page.php');?>
   <?php include_once('./template-parts/steps-swiper-block.php');?>
 </section>
  <!-- section-steps -->
-<?php include_once('./template-parts/clients-block.php');?>
+<section class="section clients-avtohim">
+      <div class="container">
+        <div class="separator"></div>
+        <div class="clients-wrapper">
+          <div class="clients-content">
+            <h2 class="section-title">
+              Производим аэрозольную продукцию для разных сфер
+            </h2>
+            <ul class="clients-list him-clients-list">
+              <li class="clients-list-item Him-clients-list-item">
+                <svg width="30" height="30" class="clients-list-icon  him-client-logo">
+                  <use xlink:href="./img/sprite.svg#Himic"></use>
+                </svg>
+                Химические производства
+              </li>
+              <li class="clients-list-item Him-clients-list-item">
+                <svg width="30" height="30" class="clients-list-icon  him-client-logo">
+                  <use xlink:href="./img/sprite.svg#carwash"></use>
+                </svg>
+                Автомойки
+              </li>
+              <li class="clients-list-item Him-clients-list-item">
+                <svg width="30" height="30" class="clients-list-icon him-client-logo">
+                  <use xlink:href="./img/sprite.svg#food"></use>
+                </svg>
+                Пищевая продукция
+              </li>
+              <li class="clients-list-item Him-clients-list-item">
+                <svg width="30" height="30" class="clients-list-icon him-client-logo">
+                  <use xlink:href="./img/sprite.svg#brush"></use>
+                </svg>
+                Лаки и краски
+              </li>
+              <li class="clients-list-item Him-clients-list-item">
+                <svg width="30" height="30" class="clients-list-icon him-client-logo">
+                  <use xlink:href="./img/sprite.svg#cosmetic"></use>
+                </svg>
+                Косметические средства
+              </li>
+              <li class="clients-list-item Him-clients-list-item">
+                <svg width="30" height="30" class="clients-list-icon him-client-logo">
+                  <use xlink:href="./img/sprite.svg#car-cosm"></use>
+                </svg>
+                Автомобильная косметика
+              </li>
+              <li class="clients-list-item Him-clients-list-item">
+                <svg width="30" height="30" class="clients-list-icon him-client-logo">
+                  <use xlink:href="./img/sprite.svg#shirt"></use>
+                </svg>
+                Косметика по уходу за одеждой
+              </li>
+              <li class="clients-list-item Him-clients-list-item">
+                <svg width="30" height="30" class="clients-list-icon him-client-logo">
+                  <use xlink:href="./img/sprite.svg#boots"></use>
+                </svg>
+                Косметика по уходу за обувью
+              </li>
+              <li class="clients-list-item Him-clients-list-item">
+                <svg width="30" height="30" class="clients-list-icon him-client-logo">
+                  <use xlink:href="./img/sprite.svg#bricks"></use>
+                </svg>
+                Строительные материалы
+              </li>
+              <li class="clients-list-item Him-clients-list-item">
+                <svg width="30" height="30" class="clients-list-icon him-client-logo">
+                  <use xlink:href="./img/sprite.svg#more"></use>
+                </svg>
+                И многих других
+              </li>
+            </ul>
+          </div>
+          <!-- /.clients-content -->
+          <div class="clients-logo-list Him-clients-logo-list">
+            <a href="#" class="clients-logo-item Him-clients-logo-item">
+              <picture >
+                <source type="image/webp" srcset="./img/client-logo-color.webp">
+                <source type="image/jpeg" srcset="./img/client-logo-color.png">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента" class="clients-logo">
+              </picture>
+              
+            </a>
+            <a href="#" class="clients-logo-item Him-clients-logo-item">
+              <picture >
+                <source type="image/webp" srcset="./img/client-logo-color.webp">
+                <source type="image/jpeg" srcset="./img/client-logo-color.png">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента" class="clients-logo">
+              </picture>
+            </a>
+            <a href="#" class="clients-logo-item Him-clients-logo-item">
+              <picture >
+                <source type="image/webp" srcset="./img/client-logo-color.webp">
+                <source type="image/jpeg" srcset="./img/client-logo-color.png">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента" class="clients-logo">
+              </picture>
+            </a>
+            <a href="#" class="clients-logo-item Him-clients-logo-item">
+              <picture >
+                <source type="image/webp" srcset="./img/client-logo-color.webp">
+                <source type="image/jpeg" srcset="./img/client-logo-color.png">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента" class="clients-logo">
+              </picture>
+            </a>
+            <a href="#" class="clients-logo-item Him-clients-logo-item">
+              <picture >
+                <source type="image/webp" srcset="./img/client-logo-color.webp">
+                <source type="image/jpeg" srcset="./img/client-logo-color.png">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента" class="clients-logo">
+              </picture>
+            </a>
+            <a href="#" class="clients-logo-item Him-clients-logo-item">
+              <picture >
+                <source type="image/webp" srcset="./img/client-logo-color.webp">
+                <source type="image/jpeg" srcset="./img/client-logo-color.png">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента" class="clients-logo">
+              </picture>
+            </a>
+            <a href="#" class="clients-logo-item Him-clients-logo-item">
+              <picture >
+                <source type="image/webp" srcset="./img/client-logo-color.webp">
+                <source type="image/jpeg" srcset="./img/client-logo-color.png">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента" class="clients-logo">
+              </picture>
+            </a>
+            <a href="#" class="clients-logo-item Him-clients-logo-item">
+              <picture >
+                <source type="image/webp" srcset="./img/client-logo-color.webp">
+                <source type="image/jpeg" srcset="./img/client-logo-color.png">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента" class="clients-logo">
+              </picture>
+            </a>
+            <a href="#" class="clients-logo-item Him-clients-logo-item">
+              <picture >
+                <source type="image/webp" srcset="./img/client-logo-color.webp">
+                <source type="image/jpeg" srcset="./img/client-logo-color.png">
+                <img src="./img/client-logo-color.png" alt="Логотип клиента" class="clients-logo">
+              </picture>
+            </a>
+          </div>
+        </div>
+        <!-- /.clients-wrapper -->
+      </div>
+    </section>
 <!-- /.section-clients -->
 <?php include_once('./template-parts/footer.php');?>

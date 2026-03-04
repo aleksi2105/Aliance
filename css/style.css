@@ -1973,11 +1973,17 @@ body {
   }
   .clients-list {
     columns: 1;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 33px;
+    margin-top: 32px;
   }
   .clients-list-item {
-    font-size: 1.2rem;
-    padding-bottom: 0.25rem;
-    gap: 1.5rem;
+    font-size: 14px;
+    margin-bottom: 2.15px;
+    padding: 0;
+    align-items: flex-start;
+    gap: 20px;
   }
   .clients-logo-list {
     margin-top: 1.4rem;
@@ -2132,6 +2138,8 @@ body {
 
   .researchs-buttons {
     margin-right: 1rem;
+    margin-top: 1.6rem;
+    width: 110px;
   }
   .contacts {
     padding-top: 3.125rem;
@@ -2184,16 +2192,60 @@ body {
     font-size: 14px;
     line-height: 156%;
   }
+  .avtohim {
+    margin-bottom: 6.1rem;
+  }
   .avtohim-client-logo {
     width: 23px;
+    height: 38px;
   }
-  .avtohim-client-car {
-    width: 30px;
+  .chemycal-types {
+    margin-bottom: 8rem;
   }
-  .avtohim-client-brush {
-    width: 30px;
+  .types-text {
+    margin-top: -0.6rem;
+    line-height: 140%;
   }
-  .clients-list-item {
-    gap: 1rem;
+  .types-list {
+    margin-top: 0;
+  }
+  .types-list-item {
+    font-size: 14px;
+    padding: 0;
+    padding-top: 8px;
+    padding-bottom: 3px;
+  }
+  .research {
+    margin-bottom: 9rem;
+  }
+  .researchs-slider {
+    margin-top: 2.5rem;
+  }
+  .research-text {
+    margin: -5px;
+    margin-top: -8px;
+    font-size: 14px;
+  }
+  .research-text-2 {
+    display: none;
+  }
+  .researchs-card {
+    min-height: 196px;
+    height: 196px;
+    max-width: 345px;
+    margin-left: 15px;
+  }
+  .steps-avtohim {
+    margin-bottom: 8rem;
+  }
+  .him-clients-list {
+    padding-top: 2px;
+    padding-bottom: 0;
+  }
+  .Him-clients-list-item {
+    margin-bottom: 15px;
+  }
+  .clients-avtohim {
+    margin-bottom: -4.2rem;
   }
 }
