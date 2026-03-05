@@ -4,10 +4,10 @@ $header_style = 'header-bg-grey';
 $showTitle = true;
 $showCta = true;
 include_once('./template-parts/header-page.php');?>
-<section class="section">
+<section class="section section-blog">
   <div class="container blog">
     <div class="blog-wrapper">
-      <a href="./blog-more.php" class="swiper-slide blog-card" aria-label="Открыть статью">
+      <a href="./blog-more.php" class="swiper-slide blog-card blog-page-card" aria-label="Открыть статью">
         <picture >
             <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
@@ -20,7 +20,7 @@ include_once('./template-parts/header-page.php');?>
         Действия представителей оппозиции, превозмогая сложившуюся
         непростую экономическую ситуацию, в равной степени предоставлены...</p>
       </a>
-      <a href="#" class="swiper-slide blog-card" aria-label="Открыть статью">
+      <a href="#" class="swiper-slide blog-card blog-page-card" aria-label="Открыть статью">
         <picture >
             <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
@@ -33,7 +33,7 @@ include_once('./template-parts/header-page.php');?>
         функционально разнесены на независимые элементы. Безусловно,
         высокотехнологичная...</p>
       </a>
-      <a href="#" class="swiper-slide blog-card" aria-label="Открыть статью">
+      <a href="#" class="swiper-slide blog-card blog-page-card" aria-label="Открыть статью">
         <picture >
             <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
@@ -45,7 +45,7 @@ include_once('./template-parts/header-page.php');?>
         функционально разнесены на независимые элементы. Безусловно,
         высокотехнологичная...</p>
       </a>
-      <a href="./blog-more.php" class="swiper-slide blog-card" aria-label="Открыть статью">
+      <a href="./blog-more.php" class="swiper-slide blog-card blog-page-card" aria-label="Открыть статью">
         <picture >
             <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
@@ -57,7 +57,7 @@ include_once('./template-parts/header-page.php');?>
         Действия представителей оппозиции, превозмогая сложившуюся
         непростую экономическую ситуацию, в равной степени предоставлены...</p>
       </a>
-      <a href="./blog-more.php" class="swiper-slide blog-card" aria-label="Открыть статью">
+      <a href="./blog-more.php" class="swiper-slide blog-card blog-page-card" aria-label="Открыть статью">
         <picture >
             <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
@@ -69,7 +69,7 @@ include_once('./template-parts/header-page.php');?>
         Действия представителей оппозиции, превозмогая сложившуюся
         непростую экономическую ситуацию, в равной степени предоставлены...</p>
       </a>
-      <a href="#" class="swiper-slide blog-card" aria-label="Открыть статью">
+      <a href="#" class="swiper-slide blog-card blog-page-card" aria-label="Открыть статью">
         <picture >
             <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
@@ -81,7 +81,7 @@ include_once('./template-parts/header-page.php');?>
         функционально разнесены на независимые элементы. Безусловно,
         высокотехнологичная...</p>
       </a>
-      <a href="#" class="swiper-slide blog-card" aria-label="Открыть статью">
+      <a href="#" class="swiper-slide blog-card blog-page-card" aria-label="Открыть статью">
         <picture >
             <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
@@ -93,7 +93,7 @@ include_once('./template-parts/header-page.php');?>
         функционально разнесены на независимые элементы. Безусловно,
         высокотехнологичная...</p>
       </a>
-      <a href="./blog-more.php" class="swiper-slide blog-card" aria-label="Открыть статью">
+      <a href="./blog-more.php" class="swiper-slide blog-card blog-page-card" aria-label="Открыть статью">
         <picture >
             <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
@@ -105,7 +105,7 @@ include_once('./template-parts/header-page.php');?>
         Действия представителей оппозиции, превозмогая сложившуюся
         непростую экономическую ситуацию, в равной степени предоставлены...</p>
       </a>
-      <a href="./blog-more.php" class="swiper-slide blog-card" aria-label="Открыть статью">
+      <a href="./blog-more.php" class="swiper-slide blog-card blog-page-card" aria-label="Открыть статью">
         <picture >
             <source type="image/webp" srcset="./img/blog/blog-photo-machine.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-machine.jpg">
@@ -117,7 +117,7 @@ include_once('./template-parts/header-page.php');?>
         Действия представителей оппозиции, превозмогая сложившуюся
         непростую экономическую ситуацию, в равной степени предоставлены...</p>
       </a>
-      <a href="#" class="swiper-slide blog-card" aria-label="Открыть статью">
+      <a href="#" class="swiper-slide blog-card blog-page-card" aria-label="Открыть статью">
         <picture >
             <source type="image/webp" srcset="./img/blog/blog-photo-pipes.webp">
             <source type="image/jpeg" srcset="./img/blog/blog-photo-pipes.jpg">
