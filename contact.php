@@ -9,7 +9,7 @@ include_once('./template-parts/header-page.php');?>
     <div class="footer-top contacts-top">
       <a href="tel:+74996861014" class="contacts-phone" aria-label="Позвонить">+7 (499) 686-10-14</a>
       <div class="footer-info">
-      <svg class="phone-icon" width="32" height="32">
+      <svg class="phone-icon contact-icon" width="32" height="32">
         <use xlink:href="./img/sprite.svg#PlacemarkFill"></use>
       </svg>
       <address class="contacts-info-address">
@@ -17,14 +17,14 @@ include_once('./template-parts/header-page.php');?>
       </address>
       </div>
       <div class="footer-info">
-      <svg class="phone-icon" width="30" height="30">
+      <svg class="phone-icon contact-icon-2" width="30" height="30">
         <use xlink:href="./img/sprite.svg#EmailSolid"></use>
       </svg>
       <a href="mailto:a.dragunov@tdaliance.ru" class="contacts-info-email" aria-label="Отправить e-mail">
               a.dragunov@tdaliance.ru
       </a>
       </div>
-      <div class="footer-social">
+      <div class="footer-social footer-social-page">
       <a href="#" class="footer-social-link" aria-label="Открыть аккаунт VKontakte">
         <svg class="footer-social-icon" width="36" height="36">
           <use xlink:href="./img/sprite.svg#vk"></use>
