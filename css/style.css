@@ -2507,4 +2507,14 @@ body {
     object-fit: cover;
     object-position: 97%;
   }
+  .politics {
+    margin-top: 12.8125rem;
+    margin-bottom: 8.5rem;
+  }
+  .politics-text {
+    font-size: 14px;
+    line-height: 157%;
+    margin-left: -4px;
+    margin-bottom: 10px;
+  }
 }
